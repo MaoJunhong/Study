@@ -1,0 +1,9 @@
+swt & jface:
+http://www.eclipse.org/swt/snippets/
+http://www.vogella.com/articles/SWT/article.html
+http://www.java2s.com/Code/Java/SWT-JFace-Eclipse/CatalogSWT-JFace-Eclipse.html
+
+
+rcp:
+http://wiki.eclipse.org/index.php/Rich_Client_Platform
+http://www.vogella.com/eclipse.html
