@@ -1,0 +1,99 @@
+Part1. 引入
+	锁屏属于系统辅助级别的操作。锁屏之后，应用需要解锁（输入密码等）之后才能接受用户的操作。它主要分为用户主动锁屏和应用自动锁屏。
+	这两类锁屏都可如下设计：
+		定义全局的isLock属性，在操作时先检查该属性，进行相关验证后允许操作。
+Part2. 用户主动锁屏
+	用户主动锁屏一般通过快捷键或鼠标点击实现，这与一般的菜单操作没有区别。
+	在RCP中可以如下设计：
+		定义Action，提供快捷键和鼠标两种方式改变全局的isLock属性。
+Part3. 应用自动锁屏
+	应用自动锁屏的关键点在与获取系统空闲的时间间隔，如果超过阈值，进行锁屏。
+	在RCP中可以如下设计：
+		way1. readAndDispatch方法
+		定义上次操作时间点，通过Display来判断UI线程中是否有系统事件（readAndDispatch方法）来改变该属性。然后根据当前时间点确定时间间隔，进行判断。
+		way2. addListener方法
+		定义上次操作时间点，给Display添加监听器来改变该属性。然后根据当前时间点确定时间间隔，进行判断。
+	Part4中演示了这两个方法。
+	值得注意的是，way1会收到代码中系统事件的影响而造成锁的时间延长；way2需要监听比较多的事件类型，如果某类事件未监听会造成锁的时间缩短。
+Part4. 自动锁屏案例
+	该案例中设计对一个按钮（文本：You can Touch me now!）进行锁定，10s之后如果用户没有任何操作则锁定，表现为按钮（文本：You cannot touch me now!）不能点击
+参考
+	http://stackoverflow.com/questions/4605201/eclipse-rcp-application-how-to-detect-when-application-is-idle
+补充
+	这两种办法代码看起来会很耗CPU，但是注意到display.sleep()，它保证了系统没事件会休息(休息一会又会主动工作)，所以是可行的。
+第三种方法：
+	设置定时器，定时检查是否应该锁屏。关键代码如下：调用lockAL()即可。
+	private void lockAL(final Display display) {
+		final Runnable handler = new Runnable() {
+
+			@Override
+			public void run() {
+				Activator.lastActivityAt = System.currentTimeMillis(); // 更新最后的操作时间
+				// System.out.println("lastActivityAt changed by AL!");
+			}
+		};
+		Listener listener = new Listener() {
+			@Override
+			public void handleEvent(Event event) {
+				display.syncExec(handler);
+			}
+		};
+		display.addFilter(SWT.MouseMove, listener); // 给Display添加监听器
+		display.addFilter(SWT.KeyUp, listener);
+		// more events...
+
+		LockTimer refresh = new LockTimer(display, 1000);
+		refresh.addRunnableListener(new Runnable() {
+			boolean locked = false;
+
+			@Override
+			public void run() {
+				if (System.currentTimeMillis() - Activator.lastActivityAt > Activator.idleThresholdSecs * 1000
+						&& locked == false) {
+					locked = true;
+					LockDialog d = new LockDialog(display.getActiveShell());
+					while (d.open() != Dialog.OK) {
+
+					}
+					locked = false;
+				}
+			}
+		});
+		refresh.start();
+	}
+
+	public class LockTimer extends TimerTask {
+		private Display display;
+		private Timer timer;
+		private long delayTime;
+
+		private List<Runnable> reDrawLists;
+
+		public LockTimer(Display display, long delayTime) {
+			this.display = display;
+			timer = new Timer();
+			this.delayTime = delayTime;
+			reDrawLists = new ArrayList<Runnable>();
+		}
+
+		public void start() {
+			timer.schedule(this, delayTime, delayTime);
+		}
+
+		public void addRunnableListener(Runnable redraw) {
+			reDrawLists.add(redraw);
+		}
+
+		@Override
+		public void run() {
+
+			int size = reDrawLists.size();
+			for (int i = 0; i < size; i++) {
+				display.asyncExec(reDrawLists.get(i));
+			}
+		}
+
+		public void stop() {
+			timer.cancel();
+		}
+	}
