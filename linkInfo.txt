@@ -3,6 +3,8 @@ http://www.eclipse.org/swt/snippets/
 http://www.vogella.com/articles/SWT/article.html
 http://www.java2s.com/Code/Java/SWT-JFace-Eclipse/CatalogSWT-JFace-Eclipse.html
 
+http://www.ibm.com/developerworks/cn/opensource/os-swt/
+http://blog.csdn.net/jayliu?viewmode=contents
 
 rcp:
 http://wiki.eclipse.org/index.php/Rich_Client_Platform
