@@ -1,0 +1,7 @@
+game:
+PopStar, 
+CandyCrush,
+AngryBirds,
+
+App:
+课程格子
