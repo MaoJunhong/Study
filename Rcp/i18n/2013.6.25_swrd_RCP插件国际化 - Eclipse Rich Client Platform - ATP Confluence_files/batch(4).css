@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+
+#comments-section .quick-comment-container.add {
+    border-top: 0px;
+}
+
+.quick-comment-prompt,
+.quick-comment-loading-container {
+    color:#999;
+    margin-left: 42px;
+    padding-top: 5px;
+}
+
+.quick-comment-loading-container {
+    padding-left: 5px;
+}
+
+.quick-comment-error-box {
+    margin-left: 18px;
+    width: 100%;
+}
+
+.quick-comment-prompt {
+    border: 1px #DDD solid;
+    border-radius: 3px;
+    height: 42px;
+    box-shadow: inset -1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quick-comment-prompt:active {
+    border: 1px #69C solid;
+    color: #69C;
+}
+
+.quick-comment-prompt span {
+    padding: 6px;
+}
+
+.quick-comment-loading-container {
+    background-color: #F0F0F0;
+    border: 1px solid #BBB;
+    display: none;
+    height: 211px;
+    width: 100%;
+}
+
+.quick-comment-loading-message {
+    background-image: url(/s/en_GB-1988229788/4107/2dc2223027d89dca2a608ee3f1c532937863ead6.1/5.0.1/_/download/resources/com.atlassian.confluence.plugins.quickcomments:quick-comment-initial/../../../images/icons/wait.gif);
+    background-position: .5em 50%;
+    background-repeat: no-repeat;
+    color:#999;
+    display: none;
+    padding-left: 28px;
+    padding-top: 5px;
+    margin: 0px;
+}
+
+/* Height here should match the height of the quick-comment-loading-container (including borders and padding) */
+.quick-comment-vertical-spacer {
+    display: none;
+    float: left;
+    height: 262px;
+    left:-69px;
+    position: relative;
+    width: 1px;
+}
+
+/* Stops AUI from pushing down the quick comment form */
+form.aui.quick-comment-form {
+    margin-top: 0;
+}
