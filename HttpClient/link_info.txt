@@ -1,3 +1,6 @@
 http://hc.apache.org/httpclient-3.x/userguide.html
 http://www.ibm.com/developerworks/cn/opensource/os-httpclient/
 http://laohuang.iteye.com/blog/55613
+
+http://blog.csdn.net/shimiso/article/details/7047447
+http://www.blogjava.net/Alpha/archive/2007/01/22/95216.html
