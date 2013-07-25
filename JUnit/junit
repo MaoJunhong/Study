@@ -1,0 +1,57 @@
+Junit4
+
+代码：
+import junit.framework.TestCase;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class AddOperationTest{
+     
+      @Before
+      public void bfw() throws Exception {
+      }
+      @After
+      public void afw() throws Exception {
+      }
+      @Test
+      public void tew() {
+          System.out.println(\"add\");
+          int x = 0;
+          int y = 0;
+          AddOperation instance = new AddOperation();
+          int expResult = 0;
+          int result = instance.add(x, y);
+          assertEquals(expResult, result);
+      }
+}
+
+@Before：	在每个测试方法之前执行；
+@After：		在每个测试方法之后执行；
+@BeforeClass：	在所有方法执行之前执行；
+@AfterClass：	在所有方法执行之后执行；
+@Test：		设置当前方法为测试方法
+
+库：
+Java工程导入JUnit4的库
+插件工程，可以导入org.junit4插件
+
+运行：
+1. 基本：选中类，run as -> JUnit Test
+2. 批量参数：
+@RunWith(Parameterized.class)
+public class TestClass {}
+...
+@Parameters
+public static Collection getData(){
+...
+}
+3. 多个测试类
+@RunWith(Suite.class)
+@SuiteClasses({TestClass.class, ...})
+
+
+高级东西
+Mock和Stub
+
+http://www.blogjava.net/aoxj/archive/2010/08/26/329975.html

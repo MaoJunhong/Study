@@ -1,0 +1,113 @@
+Part1. 引入
+	DND是Drag and Drop的缩写。
+	SWT中有关拖放操作的类都在org.eclipse.swt.dnd包中。
+	该包中主要的接口和类如下：
+		DND			类似于SWT类，封装了拖放时所用的一些常量
+		DragSource	拖放源类，可将一个控件定义为拖放源
+		DragTarget	拖放目标类，可将一个控件定义为拖放目标
+		DragSourceListener		拖放源控件时所触发的事件，通过DragSourceEvent传递
+		DragSourceAdapter	
+		DragTargetListener		拖放目标控件时所触发的事件，通过DragTargetEvent传递
+		DragTargetAdapter					
+		Transfer	数据传输类，用于将Java数据转化为系统本地的数据，反之亦然。
+					通常用于拖放操作和剪贴板操作。
+					通常使用其子类TextTransfer类、FileTransfer类和RTFTransfer类等
+
+	接下来的3个部分将介绍DragSource、Transfer、DragTarget的创建过程。
+	
+Part2.DragSource
+	Step1: 创建拖放源，需要将拖放的控件绑定在它上面
+		DragSource source = new DragSource(dragTree, DND.DROP_MOVE
+                               | DND.DROP_COPY);
+		第二个参数是拖放过程中支持的操作类型，如下：
+		操作常量		说明
+		DROP_COPY	目标对象复制了数据
+		DROP_MOVE	目标对象剪切了数据，需要删除原来的数据
+		DROP_LINK	目标对象创建了快捷方式，一般使用于对文件的操作
+		DROP_NONE	目标对象改变了数据的位置，通常是用于移动文件
+	Step2: 定义拖放过程中传递的数据类型(Transfer)
+		source.setTransfer(new Transfer[] { TextTransfer.getInstance(), FileTransfer.getInstance() });
+	Step3: 添加拖放事件的处理方法
+		source.addDragListener(new DragSourceListener()); or
+		source.addDragListener(new DragSourceAdapter());
+	它所有方法的参数都是DropSourceEvent，其重要属性有：
+		dataType	传输的数据类型
+		doit		是否允许拖动
+		detail		拖放完成时将被执行的操作，在Target那边指定
+		data		存放拖放的数据
+	主要包括的方法有：
+		dragStart	开始拖动处触发的事件。
+					如不允许拖动则令event的doit属性为false
+		dragSetData	设置数据事件。
+					该方法只有在拖放到目标对象区域中，并且在dragFinished()事件触发之前会多次调用，作用是设置放置在全局变量中的数据。 
+					如果未将光标移动到目标区域释放，将不会触发dragSetData()事件
+		dragDinished	完成拖放后的事件，一般是一些清理工作，例如如果拖放被定义成移动，在要在拖动源中删除已移动的数据。
+						通过event.detail域可以得知目标对象进行了什么操作，这些操作包括
+							i.   DND.DROP_COPY: 目标对象复制了数据
+							ii.  DND.DROP_MOVE: 目标对象剪切了数据，需要删除原来的数据
+							iii. DND.DROP_LINK: 目的对象创建了快捷方式
+							iv. DND.DROP_TARGED_MOVE：目的对象改变了数据的位置，通常用于移动文件不同的操作对应不同的鼠标形状。
+							拖放时到底实现的是什么操作，需要在目标控件的监听器中确定（见后）。
+
+Part3.Transfer
+	数据传输类（Transfer）提供了将Java数据和本地操作系统数据交换的手段。
+	该类是一个抽象类，在使用传输数据类时，通常使用Transfer子类。
+	使用时，直接获取单例类的实例即可。
+		TextTransfer.getInstance();
+	通用的Transfer子类有：
+	FileTransfer	用于传递一个或多个文件
+	TextTransfer	传递字符串
+	RTFTransfer		传统rich text formatting格式的字符串
+	MyTransfer		自定义Transfer的子类                                                                               
+	
+Part4.DropTarget
+	Step1:创建拖放接收地，需要将拖放的控件绑定在它上面
+		DropTarget target = new DropTarget(dropTable, DND.DROP_MOVE
+               | DND.DROP_COPY | DND.DROP_DEFAULT);
+		第二个参数与前面类似。
+	Step2:定义拖放过程中传递的数据类型(Transfer)
+		target.setTransfer(new Transfer[] { TextTransfer.getInstance(), FileTransfer.getInstance() });
+	Step3:添加拖放事件的处理方法
+		target.addDropListener(new DropTargetListener()); or
+		target.addDropListener(new DropTargetAdapter());
+	它所有方法的参数都是DropTargetEvent，其重要属性有：
+	currentDataType		将要释放的数据的类型
+	dataTypes			DragSource可提供的数据类型的集合
+	operations			可提供的操作的集合，是源和目标允许操作的交集
+	detail				拖放完成时将被执行的操作
+	data				存放拖放的数据
+	主要包括的方法有：
+	dragEnter
+		光标进入到目标对象的区域时触发的事件。
+		如果在定义目标对象时使用了DNS.DROP_DEFAULT样式，则当触发此事件时，
+		同时也没有按下辅助键，event.detail属性值则为DND.DROP_DEFAULT；
+		如果在定义目标对象时没有使用DNS.DROP_DEFAULT样式，则当触发此事件时，
+		同时也没有按下辅助键，event.detail属性值则为DND.DROP_MOVE；
+		event.detail属性值决定了显示的光标状态。
+	dragOver
+		光标进入目标对象区域中的事件。光标进入目标对象区域中会被重复不停的触发该事件，
+		如果光标此时是静止的，该方法仍旧会有规则的按一定时间间隔被触发。
+		event.feedback设置当widget处于光标下时应该给用户一个什么样的feedback。其属性值有： 
+		 DNS.FEEDBACK_SELECT：光标当前的行或树节点处于选中状态，仅适用于树（Tree）和表格（Table）。 
+		 DND.FEEDBACK_SCROLL：可以放到未显示的行或树节点，仅适用于树（Tree）和表格（Table）。 
+		 DND.FEEDBACK_EXPAND：可展开当前光标所在的节点，仅适用于树（Tree）。 
+		 DND.FEEDBACK_INSERT_BEFORE：在当前光标前插入标记，仅适用于树（Tree）和表格（Table）。 
+		 DND.FEEDBACK_INSERT_AFTER：在当前光标后插入标记，仅适用于树（Tree）和表格（Table）。 
+		 DND.FEEDBACK_NONE：不显示任何拖放效果。
+	dragOperationChanged
+		用户按下或放开辅助键时触发的事件。
+	dragLeave
+		当鼠标离开目标对象或在拖放过程中按下了ESC键时触发的事件。一般可用于在完成拖放后释放一些资源。
+	dropAccept
+		在完成拖放事件之前事件提供了最后一次定义数据类型的机会。
+	drop
+		拖放完成后触发的事件。
+		
+参考
+	中文:
+		http://blog.sina.com.cn/s/blog_603c271401015d21.html
+		http://hi.baidu.com/sonmeika/item/00b79df95562e118e2e3bd13
+	英文:
+		http://www.vogella.com/articles/EclipseDragAndDrop/article.html
+		http://www.eclipse.org/articles/Article-SWT-DND/DND-in-SWT.html
+		http://www.eclipse.org/articles/Article-Workbench-DND/drag_drop.html
