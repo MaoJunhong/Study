@@ -1,0 +1,117 @@
+HttpClient4.0 使用
+
+HttpClient程序包是一个实现了 HTTP协议的客户端编程工具包，要想熟练的掌握它，必须熟悉 HTTP协议。
+对于HTTP协议来说，无非就是用户请求数据，服务器端响应用户请求，并将内容结果返回给用户。
+HTTP1.1由以下几种请求组成：GET,HEAD, POST, PUT, DELETE, TRACE ,OPTIONS，因此对应到HttpClient程序包中
+分别用HttpGet,HttpHead, HttpPost, HttpPut, HttpDelete, HttpTrace, HttpOptions 这几个类来创建请求。
+所有的这些类均实现了HttpUriRequest接口，故可以作为execute的执行参数使用。
+
+l HTTP请求
+当然在所有请求中最常用的还是GET与POST两种请求，创建请求的方式如下： 
+HttpUriRequest request = newHttpPost("http://localhost/index.html");
+HttpUriRequest request = newHttpGet(“http://127.0.0.1:8080/index.html”);
+HTTP请求格式告诉我们，有两种方式可以为request提供参数：request-line方式与request-body方式。
+
+>>>
+request-line方式是指在请求行上通过URI直接提供参数。
+1）可以在生成request对象时提供带参数的URI，如：
+HttpUriRequest request = newHttpGet("http://localhost/index.html?param1=value1&param2=value2");
+
+2）HttpClient程序包还提供了URIUtils工具类，可以通过它生成带参数的URI，如： 
+URI uri =URIUtils.createURI("http", "localhost", -1,"/index.html", "param1=value1&param2=value2", null);
+HttpUriRequest request = newHttpGet(uri);
+System.out.println(request.getURI());
+上例的实例结果如下：
+ http://localhost/index.html?param1=value1&param2=value2
+
+3）需要注意的是，如果参数中含有中文，需将参数进行URLEncoding处理，如：
+String param ="param1=" + URLEncoder.encode("中国", "UTF-8") +"&param2=value2";
+URI uri =URIUtils.createURI("http", "localhost", 8080,"/sshsky/index.html",param, null);
+System.out.println(uri);
+上例的实例结果如下：
+http://localhost/index.html?param1=%E4%B8%AD%E5%9B%BD&param2=value2
+
+4）对于参数的URLEncoding处理，HttpClient程序包为我们准备了另一个工具类：URLEncodedUtils。
+通过它，我们可以直观的（但是比较复杂）生成URI，如：
+List params = newArrayList();  
+params.add(newBasicNameValuePair("param1", "中国"));  
+params.add(newBasicNameValuePair("param2", "value2"));  
+String param =URLEncodedUtils.format(params, "UTF-8");    
+URI uri =URIUtils.createURI("http", "localhost", 8080,"/sshsky/index.html",param, null);    
+System.out.println(uri);  
+上例的实例结果如下：
+http://localhost/index.html?param1=%E4%B8%AD%E5%9B%BD&param2=value2
+
+>>>
+request-body方式是指在请求的request-body中提供参数
+与 request-line方式不同，request-body方式是在request-body中提供参数，此方式只能用于进行POST请求。
+在HttpClient程序包中有两个类可以完成此项工作，它们分别是UrlEncodedFormEntity类与MultipartEntity类。
+这两个类均实现了HttpEntity接口。
+（1）UrlEncodedFormEntity类，故名思意该类主要用于form表单提交。
+通过该类创建的对象可以模拟传统的HTML表单传送POST请求中的参数。如下面的表单：
+<formactionformaction="http://localhost/index.html" method="POST">  
+    <inputtypeinputtype="text" name="param1" value="中国"/>  
+    <inputtypeinputtype="text" name="param2" value="value2"/>  
+    <inupttypeinupttype="submit" value="submit"/>  
+</form>  
+即可以通过下面的代码实现：
+List formParams = new ArrayList();  
+formParams.add(new BasicNameValuePair("param1", "中国"));  
+formParams.add(new BasicNameValuePair("param2", "value2"));  
+HttpEntity entity = new UrlEncodedFormEntity(formParams, "UTF-8");  
+HttpPost request = new HttpPost(“http://localhost/index.html”);   
+request.setEntity(entity);  
+
+当然，如果想查看HTTP数据格式，可以通过HttpEntity对象的各种方法取得。如：
+List formParams = new ArrayList();  
+formParams.add(new BasicNameValuePair("param1", "中国"));  
+formParams.add(new BasicNameValuePair("param2", "value2"));  
+UrlEncodedFormEntity entity =new UrlEncodedFormEntity(formParams, "UTF-8");  
+System.out.println(entity.getContentType());  
+System.out.println(entity.getContentLength());  
+System.out.println(EntityUtils.getContentCharSet(entity));  
+System.out.println(EntityUtils.toString(entity));  
+上例的实例结果如下：
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+    39
+    UTF-8
+   param1=%E4%B8%AD%E5%9B%BD&param2=value2 
+（2）除了传统的application/x-www-form-urlencoded表单，还有另一个经常用到的是上传文件用的表单，
+这种表单的类型为 multipart/form-data。在HttpClient程序扩展包（HttpMime）中专门有一个类与之对应，那就是MultipartEntity类。
+此类同样实现了HttpEntity接口。如下面的表单：
+<formactionformaction="http://localhost/index.html" method="POST"  
+       enctype="multipart/form-data">  
+    <inputtypeinputtype="text" name="param1" value="中国"/>  
+    <inputtypeinputtype="text" name="param2" value="value2"/>  
+    <inputtypeinputtype="file" name="param3"/>  
+    <inupttypeinupttype="submit" value="submit"/>  
+</form>  
+可以用下面的代码实现：
+MultipartEntity entity = newMultipartEntity();  
+entity.addPart("param1",new StringBody("中国", Charset.forName("UTF-8")));    
+entity.addPart("param2",new StringBody("value2", Charset.forName("UTF-8")));  
+entity.addPart("param3",new FileBody(new File("C:\1.txt")));   
+HttpPost request = newHttpPost(“http://localhost/index.html”);
+
+2 HTTP响应 
+HttpClient 程序包对于HTTP响应的处理较请求来说简单多了，其过程同样使用了HttpEntity接口。
+我们可以从HttpEntity对象中取出数据流（InputStream），该数据流就是服务器返回的响应数据。
+需要注意的是，HttpClient程序包不负责 解析数据流中的内容。如：
+HttpUriRequest request = ...;  
+HttpResponse response =httpClient.execute(request);  
+// 从response中取出HttpEntity对象   
+HttpEntity entity =response.getEntity();  
+// 查看entity的各种指标   
+System.out.println(entity.getContentType());  
+System.out.println(entity.getContentLength());  
+System.out.println(EntityUtils.getContentCharSet(entity));  
+// 取出服务器返回的数据流   
+InputStream stream =entity.getContent();  
+或者采用如下的接口方式httpClient.execute(request,new ResponseHandler<T> response)进行调用，
+它的返回值直接对应的即为用户自己想获取的数据的类型及值。
+
+
+
+   
+  
+request.setEntity(entity);  
