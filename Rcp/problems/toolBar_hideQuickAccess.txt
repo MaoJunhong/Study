@@ -1,0 +1,33 @@
+some info:
+
+https://bugs.eclipse.org/bugs/show_bug.cgi?id=362420
+http://zhenghuazhi.iteye.com/blog/1768280
+
+probleam des:
+hide QuickAccess Widget in the coolbar
+
+private void hideQuickAccess() {
+		UIJob job = new UIJob("hide quick access") {
+			@Override
+			public IStatus runInUIThread(IProgressMonitor monitor) {
+				IWorkbenchWindow window = PlatformUI.getWorkbench()
+						.getActiveWorkbenchWindow();
+				if (window == null)
+					return Status.CANCEL_STATUS;
+				if (window instanceof WorkbenchWindow) {
+					MTrimBar topTrim = ((WorkbenchWindow) window).getTopTrim();
+					for (MTrimElement element : topTrim.getChildren()) {
+						if ("SearchField".equals(element.getElementId())) {
+							((Control) element.getWidget()).setVisible(false);
+							break;
+						}
+					}
+				}
+				return Status.OK_STATUS;
+			}
+		};
+		job.schedule();
+	}
+
+*************
+run this in preWindowOpen();

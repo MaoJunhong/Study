@@ -1,0 +1,45 @@
+user menu item as list:
+like follows:
+
+final List<String> list = BankData.getInstance().getUserList();
+		this.setText(list.get(0));
+
+		this.setMenuCreator(new IMenuCreator() {
+
+			@Override
+			public Menu getMenu(Menu parent) {
+				return null;
+			}
+
+			@Override
+			public Menu getMenu(final Control parent) {
+				Menu menu = new Menu(parent);
+				for (int idx = 0; idx < list.size(); ++idx) {
+					final MenuItem item = new MenuItem(menu, SWT.NONE);
+					item.setText(list.get(idx));
+					item.addSelectionListener(new SelectionAdapter() {
+						@Override
+						public void widgetSelected(SelectionEvent e) {
+							if (SystemSettingPage.preferenceStore
+									.getBoolean(Constants.SAC)
+									&& MessageDialog
+											.openConfirm(
+													null,
+													"confirm", "sure change the user account？")) { // //$NON-NLS-2$
+								UserSwitchAction.this.setText(item.getText());
+							}
+
+							parent.getParent().layout();
+						}
+					});
+				}
+				return menu;
+			}
+
+			@Override
+			public void dispose() {
+
+			}
+		});
+
+

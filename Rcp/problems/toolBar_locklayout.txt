@@ -1,0 +1,24 @@
+some info:
+http://stackoverflow.com/questions/4759600/positioning-toolbars-in-eclipse-rcp
+
+
+way:
+@Override
+	protected void fillCoolBar(ICoolBarManager coolBar) {
+		// coolBar.setLockLayout(true);
+
+		IToolBarManager toolBar = new ToolBarManager(SWT.FLAT | SWT.HORIZONTAL);
+		coolBar.add(new ToolBarContributionItem(toolBar, "main")); // key
+		toolBar.add(uca);
+		toolBar.add(SWTUtils.createActionContributionItem(usa));
+		CashAction ca = new CashAction("");
+		ca.setEnabled(false);
+		toolBar.add(ca);
+		toolBar.add(new GroupMarker("groupName"));
+		toolBar.add(bzj);
+		toolBar.add(new Separator());
+		toolBar.add(kyzj);
+		toolBar.add(new Separator());
+		toolBar.add(ykl);
+		toolBar.add(new Separator());
+	}
