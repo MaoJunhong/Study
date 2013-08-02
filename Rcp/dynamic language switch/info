@@ -1,0 +1,156 @@
+http://www.easyicon.net/language.en/
+http://ju.outofmemory.cn/entry/1332
+
+RCP切换语言
+
+在RCP国际化时，添加相应的语言包可以满足系统启动后采用默认的语言，与用户操作系统使用的语言一致。但用户想自己选择语言的需求经常遇到，
+如何才能做到这一点呢？这里有一个解决方案，就是通过修改configuration里的config.ini中的osgi.nl值来实现，现在记下以供参考。
+1、定义command
+在plugin.xml的Extensions页中的org.eclipse.ui.commands里，添加切换语言的command，为了演示需要，本例子中，
+command的id取com.gzydt.metro.commands.locale，name取“语言”；同时为本command添加commandParameter及
+state分别为org.eclipse.ui.commands.radioStateParameter及org.eclipse.ui.handlers.RadioState，望文生义，
+这两个是用来作语言单选标志的，下面的handler会用到。command的完整代码段为：
+
+      <command
+            id="com.gzydt.metro.commands.locale"
+            name="%command.name.23">
+         <commandParameter
+               id="org.eclipse.ui.commands.radioStateParameter"
+               name="name"
+               optional="false">
+         </commandParameter>
+         <state
+               class="org.eclipse.ui.handlers.RadioState"
+               id="org.eclipse.ui.commands.radioState">
+         </state>
+      </command>
+2、定义handler
+有了command，需要有相应的handler来处理，同样的Extensions页在org.eclipse.uihandlers中，添加handler，
+commandId取com.gzydt.metro.commands.locale（就是上面的command的id），class为com.gzydt.metro.commands.LocaleHandler，
+并创建LocaleHandler用于处理切换语言命令，这里LocaleHandler继承于AbstractHandler即可。完整的代码段如下：
+
+<handler
+            class="com.gzydt.metro.commands.LocaleHandler"
+            commandId="com.gzydt.metro.commands.locale">
+      </handler>
+package com.gzydt.metro.commands;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
+import org.eclipse.core.commands.AbstractHandler;
+import org.eclipse.core.commands.ExecutionEvent;
+import org.eclipse.core.commands.ExecutionException;
+import org.eclipse.core.runtime.Platform;
+import org.eclipse.jface.dialogs.MessageDialog;
+import org.eclipse.ui.IWorkbenchWindow;
+import org.eclipse.ui.handlers.HandlerUtil;
+import org.eclipse.ui.handlers.RadioState;
+import com.gzydt.metro.nl1.Messages;
+/**
+ * 切换语言命令
+ * 
+ * @author huang
+ * 
+ */
+public class LocaleHandler extends AbstractHandler {
+	private final String file = Platform.getConfigurationLocation().getURL()
+			.getFile()
+			+ File.separator + "config.ini"; //$NON-NLS-1$
+	private void setLocale(String locale) throws IOException {
+		Properties prop = new Properties();
+		FileInputStream inStream = new FileInputStream(file);
+		prop.load(inStream);
+		inStream.close();
+		prop.setProperty("osgi.nl", locale); //$NON-NLS-1$
+		FileOutputStream out = new FileOutputStream(file);
+		prop.store(out, "Product Runtime Configuration File"); //$NON-NLS-1$
+		out.close();
+	}
+	@Override
+	public Object execute(ExecutionEvent event) throws ExecutionException {
+		try {
+			String newState = event.getParameter(RadioState.PARAMETER_ID);
+			String state = (String) event.getCommand()
+					.getState(RadioState.STATE_ID).getValue();
+			if (newState == null || newState.equals(state)) {
+				return null;//no change
+			}
+			// must like zh_CN, zh_TW, en_US, and so on...
+			this.setLocale(newState);
+			HandlerUtil.updateRadioState(event.getCommand(), newState);
+			IWorkbenchWindow winodw = HandlerUtil
+					.getActiveWorkbenchWindow(event);
+			if (winodw == null) {
+				return null;
+			}
+			if (MessageDialog.openConfirm(null, Messages.LocaleHandler_3,
+					Messages.LocaleHandler_4)) {
+				winodw.getWorkbench().restart();
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+}
+3、当然是为系统添加菜单了，在Extensions页的org.eclipse.ui.menus扩展中，在你需要的地方添加相应的菜单即可，这里为参考，代码段如下：
+
+<menu
+                  id="languag"
+                  label="%menu.label.7">
+               <command
+                     commandId="com.gzydt.metro.commands.locale"
+                     label="简体中文"
+                     style="radio">
+                  <parameter
+                        name="org.eclipse.ui.commands.radioStateParameter"
+                        value="zh_CN">
+                  </parameter>
+               </command>
+               <command
+                     commandId="com.gzydt.metro.commands.locale"
+                     label="繁體中文"
+                     style="radio">
+                  <parameter
+                        name="org.eclipse.ui.commands.radioStateParameter"
+                        value="zh_TW">
+                  </parameter>
+               </command>
+               <command
+                     commandId="com.gzydt.metro.commands.locale"
+                     label="&amp;English"
+                     style="radio">
+                  <parameter
+                        name="org.eclipse.ui.commands.radioStateParameter"
+                        value="en">
+                  </parameter>
+               </command>
+            </menu>
+4、最后一步，在ApplicationWorkbenchAdvisor的postStartup里处理一下即可，调用setLocale(window)即可，setLocale方法代码如下：
+
+/**
+	 * 设置系统语言
+	 * 
+	 * @param window
+	 */
+	private void setLocale(IWorkbenchWindow window) {
+		try {
+			ICommandService cmd = (ICommandService) window
+					.getService(ICommandService.class);
+			Command command = cmd.getCommand(ICommandIds.CMD_LOCALE);
+			String state = (String) command.getState(RadioState.STATE_ID)
+					.getValue();
+			if (state == null) {
+				state = Platform.getNL();
+			}
+			HandlerUtil.updateRadioState(command, state);
+		} catch (ExecutionException e) {
+			e.printStackTrace();
+		}
+	}
+其中，ICommandIds.CMD_LOCALE即为上面command定义的id，即com.gzydt.metro.commands.locale；
+RadioState.STATE_ID即为org.eclipse.ui.commands.radioState。至此，还需要通过eclipse的PDE Tools等对相应字符作国际化即可，
+生成如Messages.properties及public class Messages extends NLS。最后，在菜单的语言里切换简体中文、繁體中文及English出现系统需要重启的MessageDialog，
+确认后重启生效。由于以上演示代码部分已经做了i18n处理，实际写代码时需要按需要作少少的改变，大家懂的！
