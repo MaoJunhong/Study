@@ -1,0 +1,154 @@
+在菜单中控制视图的显示和隐藏
+
+1. 在preWindowOpen中监听视图打开和关闭事件
+
+public void preWindowOpen() {
+getWindowConfigurer().getWindow().addPageListener(new IPageListener() {
+
+			@Override
+			public void pageOpened(IWorkbenchPage page) {
+				PlatformUI.getWorkbench().getActiveWorkbenchWindow()
+						.getActivePage().addPartListener(new IPartListener() {
+							ScopedPreferenceStore preferenceStore = new ScopedPreferenceStore(
+									ConfigurationScope.INSTANCE,
+									Application.PLUGIN_ID);
+
+							@Override
+							public void partOpened(IWorkbenchPart part) {
+								preferenceStore.setValue(
+										part.getSite().getId(), Boolean.TRUE);
+							}
+
+							@Override
+							public void partDeactivated(IWorkbenchPart part) {
+
+							}
+
+							@Override
+							public void partClosed(IWorkbenchPart part) {
+								preferenceStore.setValue(
+										part.getSite().getId(), Boolean.FALSE);
+							}
+
+							@Override
+							public void partBroughtToTop(IWorkbenchPart part) {
+
+							}
+
+							@Override
+							public void partActivated(IWorkbenchPart part) {
+
+								IStatusLineManager statusLine = getWindowConfigurer()
+										.getActionBarConfigurer()
+										.getStatusLineManager();
+								statusLine.setMessage(null, part.getSite()
+										.getId());
+							}
+						});
+			}
+			
+			@Override
+			public void pageClosed(IWorkbenchPage page) {
+				// TODO Auto-generated method stub
+
+			}
+
+			@Override
+			public void pageActivated(IWorkbenchPage page) {
+				// TODO Auto-generated method stub
+
+			}
+		});
+}
+
+2. 在fiilMenuBar中添加菜单
+protected void fillMenuBar(IMenuManager menuBar) {
+{
+	{
+			MenuManager windowMenu = new MenuManager("窗口",
+					IWorkbenchActionConstants.M_WINDOW);
+			menuBar.add(windowMenu);
+
+			ScopedPreferenceStore preferenceStore = new ScopedPreferenceStore(
+					ConfigurationScope.INSTANCE, Application.PLUGIN_ID);
+			windowMenu.add(new ShowViewAction("挂单", preferenceStore,
+					CurrentBillView.ID));
+			windowMenu.add(new ShowViewAction("报价", preferenceStore,
+					MarketPriceView.ID));
+			windowMenu.add(new ShowViewAction("历史", preferenceStore,
+					HistoryBillView.ID));
+			windowMenu.add(new ShowViewAction("下单", preferenceStore,
+					CreateBillView.ID));
+			windowMenu.add(new ShowViewAction("合约列表", preferenceStore,
+					CommodityView.ID));
+			windowMenu.add(new ShowViewAction("持仓区", preferenceStore,
+					PositionView.ID));
+			windowMenu.add(new ShowViewAction("日志区", preferenceStore,
+					CurrentLogView.ID));
+		}
+}
+
+3. 创建ShowViewAction
+public class ShowViewAction extends Action {
+	private IPreferenceStore preferenceStore;
+
+	private String property;
+
+	/**
+	 * Create a new instance of the receiver.
+	 * 
+	 * @param title
+	 *            The displayable name of the action.
+	 * @param preferenceStore
+	 *            The preference store to propogate changes to
+	 * @param property
+	 *            The property that is being updated
+	 * @throws IllegalArgumentException
+	 *             Thrown if preferenceStore or property are <code>null</code>.
+	 */
+	public ShowViewAction(String title, IPreferenceStore preferenceStore,
+			String property) throws IllegalArgumentException {
+		super(title, AS_CHECK_BOX);
+
+		if (preferenceStore == null || property == null) {
+			throw new IllegalArgumentException();
+		}
+
+		this.preferenceStore = preferenceStore;
+		this.property = property;
+		final String finalProprety = property;
+
+		preferenceStore
+				.addPropertyChangeListener(new IPropertyChangeListener() {
+					public void propertyChange(PropertyChangeEvent event) {
+						if (finalProprety.equals(event.getProperty()) && event.getNewValue() != "") {
+							setChecked(Boolean.parseBoolean(event.getNewValue()
+									+ ""));
+						}
+					}
+				});
+
+		setChecked(preferenceStore.getBoolean(property));
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see org.eclipse.jface.action.IAction#run()
+	 */
+	public void run() {
+		preferenceStore.setValue(property, isChecked());
+		IWorkbenchPage wpage = PlatformUI.getWorkbench()
+				.getActiveWorkbenchWindow().getActivePage();
+		if (isChecked()) {
+			try {
+				wpage.showView(property);
+			} catch (PartInitException e) {
+				e.printStackTrace();
+			}
+		} else {
+			wpage.hideView(wpage.findView(property));
+		}
+	}
+
+}

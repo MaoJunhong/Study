@@ -1,0 +1,73 @@
+1.状态栏的显示
+RCP程序中，状态栏默认隐藏。要显示状态栏，需要在ApplicationWorkbenchWindowAdvisor类的preWindowOpen方法中设置显示。代码如下：
+public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
+    public void preWindowOpen() {
+        configurer.setShowStatusLine(true); // 设置显示状态栏
+    }   
+}
+2. 状态栏的预定义布局
+RCP程序中，状态栏的预定义布局有5块。依次如下：
+Fast Views | Icon/Message | Progress | Contributions | Job Progress
+2.1 Fast views
+可以将View拖到Fast views中，提供View的快捷访问。
+2.2 Icon/message
+这里可以显示图标和信息。
+2.3 Progress
+用来显示进度条，通常是不可见的。当有IWorkbenchWindow.run() 调用时，显示一个进度条和一个取消按钮。
+2.4 Contributions
+由来显示一些额外信息，例如Eclipse选中一个java editor时，底部的读写状态，行数等信息。
+2.5 Jobs progress
+用来显示执行的Job，默认是不现实。要启用此功能，要设置IWorkbenchWindowConfigurator.setShowProgressIndicator(boolean)。
+3.状态栏的使用
+状态栏可以在多处进行设置，设置一般先获取状态栏的管理器（IStatusLineManager），然后通过管理器进行设置。
+下面介绍几个常见的地方获取IStatusLineManager的方法：
+3.1 在ApplicationWorkbenchWindowAdvisor中
+IStatusLineManager statusLine = getWindowConfigurer().getActionBarConfigurer().getStatusLineManager();
+3.2 在View中
+IStatusLineManager statusLine = getViewSite().getActionBars().getStatusLineManager();
+3.3 在Editor中
+IStatusLineManager statusLine = IEditorPart.getEditorSite().getActionBarConfigurer().getStatusLineManager();
+4. 自定义状态栏项
+可能有的时候，状态栏预定义的几项不能满足我们要求，那么我们需要定义自己的状态栏项，然后加入到状态栏中。
+定义的状态栏项需要继承StatusLineContributionItem类，并覆盖其fill方法，进行自己的布局。
+定义完之后，需要在ApplicationActionBarAdvisor类中的makeActions方法中创建实例，然后在fillStatusLine方法中通过IStatusManager管理器加入到状态栏。
+完整的实例代码如下：
+public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
+    private ServerStatusContributionItem serverStatus;
+    public ApplicationActionBarAdvisor(IActionBarConfigurer configurer) {
+        super(configurer);
+    }
+    protected void makeActions(IWorkbenchWindow window) {
+        serverStatus = new ServerStatusContributionItem("server status");//创建状态栏项实例
+        serverStatus.setVisible(true);
+    }
+    protected void fillMenuBar(IMenuManager menuBar) {
+    }
+    @Override
+    protected void fillStatusLine(IStatusLineManager statusLine) {
+        super.fillStatusLine(statusLine);
+        statusLine.add(serverStatus);//将状态栏项加入到状态栏
+    }
+}
+ServerStatusContributionItem类代码如下：
+public class ServerStatusContributionItem extends StatusLineContributionItem {
+    private Label priceServer;
+    private Label businessServer;
+    public ServerStatusContributionItem(String id) {
+        super(id);
+    }
+    @Override
+    public void fill(Composite parent) {
+        // 状态栏项的布局在此
+        priceServer = new Label(parent, SWT.NONE);
+        businessServer = new Label(parent, SWT.NONE);
+        setStatus(priceServer, "red", "price server is not connect!");
+        setStatus(businessServer, "red", "business server is not connect!");
+        super.fill(parent);
+    }
+    public void setStatus(Label label, String color, String toolTip) {
+        label.setToolTipText(toolTip);
+        label.setImage(AbstractUIPlugin.imageDescriptorFromPlugin(
+                Application.PLUGIN_ID, "icons/" + color + ".png").createImage());
+    }
+}
