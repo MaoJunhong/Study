@@ -15,8 +15,20 @@ public class MailSenderInfo {
 	public static Map<MailServer, InetSocketAddress> serverManager = new HashMap<MailServer, InetSocketAddress>();
 
 	static {
-		serverManager.put(MailServer.QQ, new InetSocketAddress("smtp.qq.com", 25));
-		serverManager.put(MailServer.l63, new InetSocketAddress("smtp.163.com", 25));
+		serverManager.put(MailServer.QQ, new InetSocketAddress("smtp.qq.com",
+				25));
+		serverManager.put(MailServer.l63, new InetSocketAddress("smtp.163.com",
+				25));
+	}
+
+	public static MailServer getMailServer(String username) {
+		if (username.contains("qq") || username.contains("QQ")) {
+			return MailServer.QQ;
+		} else if (username.contains("163")) {
+			return MailServer.l63;
+		}
+
+		return null;
 	}
 
 	// 发送邮件的服务器的IP和端口

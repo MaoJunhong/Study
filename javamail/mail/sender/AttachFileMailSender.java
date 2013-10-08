@@ -34,11 +34,13 @@ public class AttachFileMailSender {
 		Properties pro = mailInfo.getProperties();
 		// 如果需要身份认证，则创建一个密码验证器
 		if (mailInfo.isValidate()) {
-			authenticator = new SmtpAuthenticator(mailInfo.getUserName(), mailInfo.getPassword());
+			authenticator = new SmtpAuthenticator(mailInfo.getUserName(),
+					mailInfo.getPassword());
 		}
 
 		// 根据邮件会话属性和密码验证器构造一个发送邮件的session
-		Session sendMailSession = Session.getDefaultInstance(pro, authenticator);
+		Session sendMailSession = Session
+				.getDefaultInstance(pro, authenticator);
 		try {
 			// 根据session创建一个邮件消息
 			Message mailMessage = new MimeMessage(sendMailSession);
@@ -52,7 +54,8 @@ public class AttachFileMailSender {
 			mailMessage.setRecipient(Message.RecipientType.TO, to);
 			List<String> moreTo = mailInfo.getMoreTo();
 			for (String toAddress : moreTo) {
-				mailMessage.addRecipient(Message.RecipientType.TO, new InternetAddress(toAddress));
+				mailMessage.addRecipient(Message.RecipientType.TO,
+						new InternetAddress(toAddress));
 			}
 
 			// 设置邮件消息的主题
@@ -68,11 +71,14 @@ public class AttachFileMailSender {
 			mainPart.addBodyPart(html);
 			// 设置附件内容
 			String file[] = mailInfo.getAttachFileNames();
-			for (String fileName : file) {
-				MimeBodyPart attach = new MimeBodyPart();
-				attach.setDataHandler(new DataHandler(new FileDataSource(fileName)));
-				attach.setFileName(fileName);
-				mainPart.addBodyPart(attach);
+			if (file != null) {
+				for (String fileName : file) {
+					MimeBodyPart attach = new MimeBodyPart();
+					attach.setDataHandler(new DataHandler(new FileDataSource(
+							fileName)));
+					attach.setFileName(fileName);
+					mainPart.addBodyPart(attach);
+				}
 			}
 			// 将MiniMultipart对象设置为邮件内容
 			mailMessage.setContent(mainPart);
