@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="rcp.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="rcp.Perspective"
+            id="Mei_s_Translator.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="false"
+            class="ui.View"
+            id="Mei&apos;s Translator.View"
+            name="View"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="Mei_s_Translator.application"
+            name="Mei&apos;s Product">
+         <property
+               name="appName"
+               value="Mei&apos;s Product">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
