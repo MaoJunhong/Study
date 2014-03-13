@@ -29,8 +29,7 @@ import com.alibaba.fastjson.JSON;
  */
 public class MusicDownload {
 	public static void main(String[] args) throws Exception {
-		PropertyConfigurator
-				.configure("conf/log4j.properties");
+		PropertyConfigurator.configure("conf/log4j.properties");
 
 		// 获取音乐id列表
 		List<String> idList = new ArrayList<String>();
@@ -120,6 +119,14 @@ public class MusicDownload {
 					+ "&rate="
 					+ rateMax.toString()
 					+ "&format=" + format;
+
+			File file = new File("music/" + song.getSongName() + "-"
+					+ song.getArtistName() + "." + format);
+			System.err.println(file.getName());
+			if (file.exists() || format.compareToIgnoreCase("mp3") != 0) {
+				continue;
+			}
+
 			while (true) {
 				System.err.println(url);
 				songGet = new HttpGet(url);
@@ -144,19 +151,14 @@ public class MusicDownload {
 				songGet.releaseConnection();
 			}
 
-			InputStream inputStream = null;
-			FileOutputStream fileOutputStream = null;
+			System.out.println(url);
+			System.out.println(song.getSongName() + "--->正在下载...");
 
 			HttpGet mp3Get = new HttpGet(url);
 			CloseableHttpResponse mp3Response = httpClient.execute(mp3Get);
 
-			System.out.println(url + "---");
-			System.out.println(song.getSongName() + "--->正在下载...");
-			inputStream = mp3Response.getEntity().getContent();
-			fileOutputStream = new FileOutputStream(new File(
-					"music/" + song.getSongName() + "-"
-							+ song.getArtistName() + "." + format));
-
+			InputStream inputStream = mp3Response.getEntity().getContent();
+			FileOutputStream fileOutputStream = new FileOutputStream(file);
 			byte[] bytes = new byte[102400];
 			int len = 0;
 			while ((len = inputStream.read(bytes)) != -1) {
@@ -166,7 +168,9 @@ public class MusicDownload {
 
 			System.out.println(song.getSongName() + "---下载完毕");
 			fileOutputStream.close();
-			// songGet.reset();
+			inputStream.close();
+			mp3Get.releaseConnection();
+			mp3Response.close();
 
 		}
 		httpClient.close();
