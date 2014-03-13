@@ -30,7 +30,7 @@ import com.alibaba.fastjson.JSON;
 public class MusicDownload {
 	public static void main(String[] args) throws Exception {
 		PropertyConfigurator
-				.configure("/Users/swrd/Workspaces/workspace_test/HttpsTest/conf/log4j.properties");
+				.configure("conf/log4j.properties");
 
 		// 获取音乐id列表
 		List<String> idList = new ArrayList<String>();
@@ -154,7 +154,7 @@ public class MusicDownload {
 			System.out.println(song.getSongName() + "--->正在下载...");
 			inputStream = mp3Response.getEntity().getContent();
 			fileOutputStream = new FileOutputStream(new File(
-					"/Users/swrd/Downloads/music/" + song.getSongName() + "-"
+					"music/" + song.getSongName() + "-"
 							+ song.getArtistName() + "." + format));
 
 			byte[] bytes = new byte[102400];

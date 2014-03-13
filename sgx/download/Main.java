@@ -12,11 +12,11 @@ public class Main {
 
 	private static String user = "stlragphcwk";
 	private static String password = "SS82W10R781Di6";
-	private static String zipFilePath = "/Users/swrd/Downloads/blotter2.zip";
+	private static String zipFilePath = "blotter/blotter.zip";
 
 	public static void main(String[] args) throws Exception {
 		PropertyConfigurator
-				.configure("/Users/swrd/Workspaces/workspace_test/HttpsTest/conf/log4j.properties");
+				.configure("conf/log4j.properties");
 
 		long start = System.currentTimeMillis(), end;
 
