@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Addon
+Bundle-SymbolicName: com.atplatform.rcp.widgets.addon
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: ATPLATFORM
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.swt,
+ org.eclipse.jface,
+ org.eclipse.core.runtime;bundle-version="3.9.100"
+Export-Package: com.gface.custom,
+ com.gface.date,
+ net.sf.swtaddons.autocomplete,
+ net.sf.swtaddons.autocomplete.combo,
+ net.sf.swtaddons.autocomplete.text
