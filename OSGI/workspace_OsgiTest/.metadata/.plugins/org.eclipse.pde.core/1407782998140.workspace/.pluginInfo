@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="1054" class="own.cmd.CustomizedCommand" localization="OSGI-INF/l10n/bundle" name="OwnCommand" project="OwnCommand"/>
+	<bundle bundleID="1055" class="dictqueryenter.Activator" localization="OSGI-INF/l10n/bundle" name="DictQueryEnter" project="DictQueryEnter"/>
+	<bundle bundleID="1056" class="dictquery.Activator" localization="OSGI-INF/l10n/bundle" name="DictQuery" project="DictQuery"/>
+	<bundle bundleID="1057" class="helloworld.Activator" localization="OSGI-INF/l10n/bundle" name="HelloWorld" project="HelloWorld" provider="atp"/>
+	<bundle bundleID="1058" class="factorylocaldictquery.Activator" localization="OSGI-INF/l10n/bundle" name="FactoryLocalDictQuery" project="FactoryLocalDictQuery"/>
+	<bundle bundleID="1059" localization="OSGI-INF/l10n/bundle" name="DSLocalDictQuery" project="DSLocalDictQuery"/>
+	<bundle bundleID="1060" class="localdictquery.Activator" localization="OSGI-INF/l10n/bundle" name="LocalDictQuery" project="LocalDictQuery"/>
+</map>

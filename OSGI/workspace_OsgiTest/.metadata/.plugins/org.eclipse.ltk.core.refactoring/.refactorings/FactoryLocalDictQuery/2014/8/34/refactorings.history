@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;factorylocaldictquery.impl.LocalDictQuery&apos; to &apos;FALocalDictQuery&apos;&#x0A;- Original project: &apos;FactoryLocalDictQuery&apos;&#x0A;- Original element: &apos;factorylocaldictquery.impl.LocalDictQuery&apos;&#x0A;- Renamed element: &apos;factorylocaldictquery.impl.FALocalDictQuery&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LocalDictQuery&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;factorylocaldictquery.impl{LocalDictQuery.java[LocalDictQuery" matchStrategy="1" name="FALocalDictQuery" qualified="false" references="true" similarDeclarations="false" stamp="1408324200592" textual="false" version="1.0"/>
+</session>

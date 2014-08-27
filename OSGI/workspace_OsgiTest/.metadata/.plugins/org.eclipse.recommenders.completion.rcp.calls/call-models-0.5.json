@@ -1,0 +1,22 @@
+{
+  "/Users/swrd/eclipse/eclipse-java/plugins/org.eclipse.osgi_3.8.2.v20130124-134944.jar": {
+    "coordinate": "org.eclipse.osgi:org.eclipse.osgi:zip:call:3.0.0",
+    "location": "/Users/swrd/eclipse/eclipse-java/plugins/org.eclipse.osgi_3.8.2.v20130124-134944.jar",
+    "status": "RESOLVED"
+  },
+  "/Users/swrd/Workspaces/workspace_OsgiTest/DictQuery/src": {
+    "location": "/Users/swrd/Workspaces/workspace_OsgiTest/DictQuery/src",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/swrd/Workspaces/workspace_OsgiTest/DictQuery/src\u0027. Neither fingerprint \u0027null\u0027 nor symbolic name \u0027DictQuery\u0027 are known."
+  },
+  "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar",
+    "status": "RESOLVED"
+  },
+  "/Users/swrd/Workspaces/workspace_OsgiTest/DictQueryEnter/src": {
+    "location": "/Users/swrd/Workspaces/workspace_OsgiTest/DictQueryEnter/src",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/swrd/Workspaces/workspace_OsgiTest/DictQueryEnter/src\u0027. Neither fingerprint \u0027null\u0027 nor symbolic name \u0027DictQueryEnter\u0027 are known."
+  }
+}

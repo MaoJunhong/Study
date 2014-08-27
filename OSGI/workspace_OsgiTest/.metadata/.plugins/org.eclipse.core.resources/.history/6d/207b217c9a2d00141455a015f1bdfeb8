@@ -1,0 +1,17 @@
+package dictqueryenter;
+
+import dictquery.query.QueryService;
+
+public class DSQSImpl {
+	private static QueryService dsQs;
+
+	public static void setDsQs(QueryService dsQs) {
+		Activator.dsQs = dsQs;
+		System.out.println("setDsQs");
+	}
+
+	public static void unsetDsQs() {
+		Activator.dsQs = null;
+		System.out.println("unsetDsQs");
+	}
+}

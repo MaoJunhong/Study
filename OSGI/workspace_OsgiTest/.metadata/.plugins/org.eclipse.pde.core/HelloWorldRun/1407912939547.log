@@ -1,0 +1,89 @@
+!SESSION 2014-08-13 14:55:39.356 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -dev file:/Users/swrd/Workspaces/workspace_OsgiTest/.metadata/.plugins/org.eclipse.pde.core/HelloWorldRun/dev.properties -os macosx -ws cocoa -arch x86_64 -consoleLog -console
+
+!ENTRY org.eclipse.equinox.http.jetty 4 0 2014-08-13 14:55:39.909
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: The bundle "org.eclipse.equinox.http.jetty_3.0.1.v20121109-203239 [18]" could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.jetty.http; version="[8.0.0,9.0.0)"
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolverError(AbstractBundle.java:1332)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1316)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:323)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:390)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1176)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:559)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:544)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:457)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:438)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.osgi 4 0 2014-08-13 14:55:39.961
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.http.jetty_3.0.1.v20121109-203239.jar was not resolved.
+
+!ENTRY org.eclipse.osgi 2 0 2014-08-13 14:55:39.980
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-08-13 14:55:39.980
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.http.jetty_3.0.1.v20121109-203239.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.980
+!MESSAGE Missing imported package org.eclipse.jetty.server.bio_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.981
+!MESSAGE Missing imported package org.eclipse.jetty.server.ssl_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.981
+!MESSAGE Missing imported package org.eclipse.jetty.io.nio_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.982
+!MESSAGE Missing imported package org.eclipse.jetty.io.bio_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.982
+!MESSAGE Missing imported package org.eclipse.jetty.util.log_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.982
+!MESSAGE Missing imported package org.eclipse.jetty.server.nio_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.983
+!MESSAGE Missing imported package org.eclipse.jetty.util.component_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.983
+!MESSAGE Missing imported package org.eclipse.jetty.util_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.983
+!MESSAGE Missing imported package org.eclipse.jetty.servlet_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.984
+!MESSAGE Missing imported package org.eclipse.jetty.server.session_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.984
+!MESSAGE Missing imported package org.eclipse.jetty.server_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.985
+!MESSAGE Missing imported package org.eclipse.jetty.server.handler_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.985
+!MESSAGE Missing imported package org.eclipse.jetty.http_[8.0.0,9.0.0).
+
+!ENTRY org.eclipse.osgi 2 0 2014-08-13 14:55:39.994
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-08-13 14:55:39.994
+!MESSAGE Bundle org.eclipse.equinox.http.jetty_3.0.1.v20121109-203239 [18] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.994
+!MESSAGE Missing imported package org.eclipse.jetty.http_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.995
+!MESSAGE Missing imported package org.eclipse.jetty.io.bio_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.995
+!MESSAGE Missing imported package org.eclipse.jetty.io.nio_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.995
+!MESSAGE Missing imported package org.eclipse.jetty.server_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.995
+!MESSAGE Missing imported package org.eclipse.jetty.server.bio_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.996
+!MESSAGE Missing imported package org.eclipse.jetty.server.handler_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.996
+!MESSAGE Missing imported package org.eclipse.jetty.server.nio_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.996
+!MESSAGE Missing imported package org.eclipse.jetty.server.session_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.996
+!MESSAGE Missing imported package org.eclipse.jetty.server.ssl_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.997
+!MESSAGE Missing imported package org.eclipse.jetty.servlet_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.997
+!MESSAGE Missing imported package org.eclipse.jetty.util_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.997
+!MESSAGE Missing imported package org.eclipse.jetty.util.component_[8.0.0,9.0.0).
+!SUBENTRY 2 org.eclipse.equinox.http.jetty 2 0 2014-08-13 14:55:39.997
+!MESSAGE Missing imported package org.eclipse.jetty.util.log_[8.0.0,9.0.0).

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DictQueryEnter
+Bundle-SymbolicName: DictQueryEnter
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: dictqueryenter.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: dictquery.query,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.1"
+Service-Component: OSGI-INF/component.xml
+Require-Bundle: org.eclipse.osgi.services;bundle-version="3.3.100"

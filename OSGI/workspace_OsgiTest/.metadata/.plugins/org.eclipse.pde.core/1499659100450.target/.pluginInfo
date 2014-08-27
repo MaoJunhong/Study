@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="338" name="org.eclipse.equinox.p2.metadata.repository Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="339" class="org.eclipse.equinox.internal.p2.operations.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="941" bundleSource="org.eclipse.e4.ui.widgets;version=&quot;0.12.3.v20130123-162658&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="942" bundleSource="org.eclipse.e4.ui.workbench.addons.swt;version=&quot;0.10.3.v20130124-185622&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="940" bundleSource="org.eclipse.e4.ui.services;version=&quot;0.10.3.v20130123-162658&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="945" bundleSource="org.eclipse.e4.ui.workbench;version=&quot;0.11.0.v20130125-100758&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="332" name="org.eclipse.equinox.p2.garbagecollector Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="946" bundleSource="org.eclipse.e4.ui.workbench.swt;version=&quot;0.10.3.v20130124-133900&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="333" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="943" bundleSource="org.eclipse.e4.ui.workbench.renderers.swt.cocoa;version=&quot;0.11.2.v20130123-162658&quot;;roots:=&quot;.&quot;" localization="fragment-cocoa" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="330" name="org.eclipse.equinox.p2.extensionlocation Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="944" bundleSource="org.eclipse.e4.ui.workbench.renderers.swt;version=&quot;0.10.3.v20130124-170312&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="331" class="org.eclipse.equinox.internal.p2.garbagecollector.GCActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="949" bundleSource="org.eclipse.ecf.identity;version=&quot;3.1.200.v20120610-1946&quot;;roots=&quot;.&quot;" name="ECF Core Identity API Source" provider="Eclipse.org - ECF"/>
+	<bundle bundleID="336" name="org.eclipse.equinox.p2.metadata Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="337" class="org.eclipse.equinox.internal.p2.metadata.repository.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="947" bundleSource="org.eclipse.e4.ui.workbench3;version=&quot;0.12.0.v20120521-2329&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="334" name="org.eclipse.equinox.p2.jarprocessor Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="948" bundleSource="org.eclipse.ecf.filetransfer;version=&quot;5.0.0.v20120610-1946&quot;;roots=&quot;.&quot;" name="ECF Filetransfer API Source" provider="Eclipse.org - ECF"/>
+	<bundle bundleID="335" class="org.eclipse.equinox.internal.p2.metadata.MetadataActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="531" name="org.eclipse.mylyn.discovery.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="748" class="org.eclipse.ui.internal.net.Activator" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER"/>
+	<bundle bundleID="530" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="747" name="org.eclipse.ui.navigator.resources Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="746" class="org.eclipse.ui.internal.navigator.resources.plugin.WorkbenchNavigatorPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="745" name="org.eclipse.ui.navigator Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="535" class="org.eclipse.mylyn.internal.gerrit.ui.GerritUiPlugin" name="Mylyn Gerrit Connector" provider="Eclipse Mylyn"/>
+	<bundle bundleID="534" class="org.eclipse.mylyn.internal.gerrit.core.GerritCorePlugin" name="Mylyn Gerrit Connector" provider="Eclipse Mylyn"/>
+	<bundle bundleID="533" name="org.eclipse.mylyn.discovery.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="532" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+		<library name="lib-e3.5/"/>
+		<library name="lib-e3.6/"/>
+	</bundle>
+	<bundle bundleID="749" name="org.eclipse.ui.net Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="539" name="org.eclipse.mylyn.git.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="740" class="org.eclipse.ui.internal.intro.impl.IntroPlugin" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="538" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="537" name="org.eclipse.mylyn.git.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="536" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="744" class="org.eclipse.ui.internal.navigator.NavigatorPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="743" name="org.eclipse.ui.intro.universal Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="742" class="org.eclipse.ui.internal.intro.universal.UniversalIntroPlugin" localization="plugin" name="%plugin_name" provider="%provider_name">
+		<library name="universal.jar"/>
+	</bundle>
+	<bundle bundleID="741" name="org.eclipse.ui.intro Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="349" class="org.eclipse.equinox.internal.p2.repository.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="930" bundleSource="org.eclipse.e4.core.contexts;version=&quot;1.2.0.v20121221-192508&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="931" bundleSource="org.eclipse.e4.core.di.extensions;version=&quot;0.11.100.v20121024-182359&quot;;roots:=&quot;.&quot;" localization="fragment" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="932" bundleSource="org.eclipse.e4.core.di;version=&quot;1.2.0.v20121024-173149&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="341" class="org.eclipse.equinox.internal.p2.publisher.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="933" bundleSource="org.eclipse.e4.core.services;version=&quot;1.0.0.v20120521-2346&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="342" class="org.eclipse.pde.internal.publishing.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="934" bundleSource="org.eclipse.e4.ui.bindings;version=&quot;0.10.3.v20130123-162658&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="343" name="org.eclipse.equinox.p2.publisher.eclipse Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="935" bundleSource="org.eclipse.e4.ui.css.core;version=&quot;0.10.2.v20120912-132817&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="344" name="org.eclipse.equinox.p2.publisher Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="936" bundleSource="org.eclipse.e4.ui.css.swt;version=&quot;0.10.3.v20130123-162658&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="345" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="937" bundleSource="org.eclipse.e4.ui.css.swt.theme;version=&quot;0.9.4.v20130123-162658&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="346" name="org.eclipse.equinox.p2.ql Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="938" bundleSource="org.eclipse.e4.ui.di;version=&quot;0.10.1.v20120523-1955&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="347" class="org.eclipse.equinox.internal.p2.reconciler.dropins.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="939" bundleSource="org.eclipse.e4.ui.model.workbench;version=&quot;0.10.1.v20120523-1955&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="348" name="org.eclipse.equinox.p2.reconciler.dropins Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="3" localization="fragment" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="540" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="735" name="org.eclipse.ui.forms Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="929" bundleSource="org.eclipse.e4.core.commands;version=&quot;0.10.1.v20120523-1955&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="2" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="734" class="org.eclipse.ui.internal.forms.FormsPlugin" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="1" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="542" class="org.eclipse.mylyn.internal.hudson.core.HudsonCorePlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="737" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="e4-ide-application.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="541" name="org.eclipse.mylyn.help.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="736" class="org.eclipse.ui.internal.ide.IDEWorkbenchPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="e4-ide.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="7" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="544" class="org.eclipse.mylyn.internal.hudson.ui.HudsonUiPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="739" name="org.eclipse.ui.ide Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="6" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="543" name="org.eclipse.mylyn.hudson.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="738" name="org.eclipse.ui.ide.application Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="340" name="org.eclipse.equinox.p2.operations Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="5" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="546" class="org.eclipse.mylyn.internal.ide.ant.AntUiBridgePlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="4" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="545" name="org.eclipse.mylyn.hudson.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="548" class="org.eclipse.mylyn.internal.ide.ui.IdeUiBridgePlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="547" name="org.eclipse.mylyn.ide.ant Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="9" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="8" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="549" name="org.eclipse.mylyn.ide.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="731" name="org.eclipse.ui.editors Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="730" class="org.eclipse.ui.internal.editors.text.EditorsPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="733" name="org.eclipse.ui.externaltools Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="732" class="org.eclipse.ui.externaltools.internal.model.ExternalToolsPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="920" bundleSource="org.eclipse.core.jobs;version=&quot;3.5.300.v20120912-155018&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="318" class="org.eclipse.equinox.internal.p2.director.app.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="319" name="org.eclipse.equinox.p2.director.app Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="316" name="org.eclipse.equinox.p2.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="317" class="org.eclipse.equinox.internal.p2.director.DirectorActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="927" bundleSource="org.eclipse.debug.core;version=&quot;3.7.100.v20120521-2012&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="314" name="org.eclipse.equinox.p2.console Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="928" bundleSource="org.eclipse.debug.ui;version=&quot;3.8.2.v20130130-171415&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="315" class="org.eclipse.equinox.internal.p2.core.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="925" bundleSource="org.eclipse.core.runtime;version=&quot;3.8.0.v20120912-155025&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="312" name="org.eclipse.equinox.p2.artifact.repository Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="926" bundleSource="org.eclipse.core.variables;version=&quot;3.2.600.v20120521-2012&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="313" class="org.eclipse.equinox.internal.p2.console.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="923" bundleSource="org.eclipse.core.runtime.compatibility.registry;version=&quot;3.5.101.v20130108-163257&quot;;roots:=&quot;runtime_registry_compatibilitysrc&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="310" name="org.eclipse.equinox.launcher Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="924" bundleSource="org.eclipse.core.runtime.compatibility;version=&quot;3.2.200.v20120521-2346&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="311" class="org.eclipse.equinox.internal.p2.artifact.repository.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="921" bundleSource="org.eclipse.core.net;version=&quot;1.2.200.v20120914-093638&quot;;roots:=&quot;.&quot;" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER"/>
+	<bundle bundleID="922" bundleSource="org.eclipse.core.resources;version=&quot;3.8.1.v20121114-124432&quot;;roots:=&quot;.,ant_tasks/resources-antsrc&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="513" name="org.eclipse.mylyn.commons.repositories.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="512" class="org.eclipse.mylyn.internal.commons.repositories.ui.RepositoriesUiPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="729" name="org.eclipse.ui.console Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="511" name="org.eclipse.mylyn.commons.repositories Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="728" class="org.eclipse.ui.console.ConsolePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="510" name="org.eclipse.mylyn.commons.repositories.http.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="727" name="org.eclipse.ui.cocoa Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="726" name="org.eclipse.ui.cheatsheets Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="725" class="org.eclipse.ui.internal.cheatsheets.CheatSheetPlugin" localization="plugin" name="%PLUGIN_NAME" provider="%PROVIDER_NAME"/>
+	<bundle bundleID="919" bundleSource="org.eclipse.core.filesystem;version=&quot;1.3.200.v20130115-145044&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="724" name="org.eclipse.ui.browser Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="918" bundleSource="org.eclipse.core.filebuffers;version=&quot;3.5.200.v20120523-1310&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="723" class="org.eclipse.ui.internal.browser.WebBrowserUIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="722" class="org.eclipse.ui.internal.UIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="721" name="org.eclipse.text Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="519" name="org.eclipse.mylyn.commons.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="720" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="518" class="org.eclipse.mylyn.internal.commons.ui.CommonsUiPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="517" name="org.eclipse.mylyn.commons.team Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="516" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="515" name="org.eclipse.mylyn.commons.screenshots Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="514" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="327" class="org.eclipse.equinox.internal.p2.engine.EngineActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="328" name="org.eclipse.equinox.p2.engine Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="329" class="org.eclipse.equinox.internal.p2.extensionlocation.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="914" bundleSource="org.eclipse.core.databinding.property;version=&quot;1.4.100.v20120523-1955&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="323" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="915" bundleSource="org.eclipse.core.databinding;version=&quot;1.4.1.v20120912-132807&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="324" class="org.eclipse.equinox.internal.p2.discovery.compatibility.Activator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="916" bundleSource="org.eclipse.core.expressions;version=&quot;3.4.401.v20120912-155018&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="325" name="org.eclipse.equinox.p2.discovery.compatibility Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="917" bundleSource="org.eclipse.core.externaltools;version=&quot;1.0.100.v20120521-2012&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="326" name="org.eclipse.equinox.p2.discovery Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="910" bundleSource="org.eclipse.core.commands;version=&quot;3.6.2.v20130123-162658&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="709" name="SWTBot SWT Control Finder plugin (incubation)" provider="Eclipse.org - SWTBot">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="911" bundleSource="org.eclipse.core.contenttype;version=&quot;3.4.200.v20120523-2004&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="320" name="org.eclipse.equinox.p2.director Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="912" bundleSource="org.eclipse.core.databinding.beans;version=&quot;1.2.200.v20120523-1955&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="321" class="org.eclipse.equinox.internal.provisional.p2.directorywatcher.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="913" bundleSource="org.eclipse.core.databinding.observable;version=&quot;1.4.1.v20120521-2329&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="322" name="org.eclipse.equinox.p2.directorywatcher Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="522" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="717" name="org.eclipse.team.cvs.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="521" name="org.eclipse.mylyn.commons.workbench Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="716" class="org.eclipse.team.internal.ccvs.ui.CVSUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="524" class="org.eclipse.mylyn.internal.context.core.ContextCorePlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="719" name="org.eclipse.team.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="523" name="org.eclipse.mylyn.commons.xmlrpc Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="718" class="org.eclipse.team.internal.ui.TeamUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="908" bundleSource="org.eclipse.compare.core;version=&quot;3.5.200.v20120522-1148&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="713" name="org.eclipse.team.cvs.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="907" bundleSource="org.eclipse.ant.core;version=&quot;3.2.401.v20121204-162022&quot;;roots:=&quot;lib/antsupportlibsrc,.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="712" class="org.eclipse.team.internal.ccvs.core.CVSProviderPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="520" class="org.eclipse.mylyn.internal.commons.workbench.CommonsWorkbenchPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="715" name="org.eclipse.team.cvs.ssh2 Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="909" bundleSource="org.eclipse.compare;version=&quot;3.5.301.v20130125-135424&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="714" class="org.eclipse.team.internal.ccvs.ssh2.CVSSSH2Plugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="529" name="org.eclipse.mylyn.context.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="711" name="org.eclipse.team.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="710" class="org.eclipse.team.internal.core.TeamPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="526" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="525" name="org.eclipse.mylyn.context.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="528" class="org.eclipse.mylyn.internal.context.ui.ContextUiPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="527" name="org.eclipse.mylyn.context.tasks.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="989" bundleSource="org.eclipse.equinox.p2.ui.sdk;version=&quot;1.0.200.v20120515-1650&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="988" bundleSource="org.eclipse.equinox.p2.ui.sdk.scheduler;version=&quot;1.1.0.v20110815-1744&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="987" bundleSource="org.eclipse.equinox.p2.ui.importexport;version=&quot;1.0.1.v20120913-155635&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="571" name="org.eclipse.mylyn.tasks.index.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="570" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="982" bundleSource="org.eclipse.equinox.p2.repository;version=&quot;2.2.0.v20120524-1945&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="981" bundleSource="org.eclipse.equinox.p2.reconciler.dropins;version=&quot;1.1.200.v20120301-2145&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="980" bundleSource="org.eclipse.equinox.p2.ql;version=&quot;2.0.100.v20110808-1657&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="986" bundleSource="org.eclipse.equinox.p2.transport.ecf;version=&quot;1.0.100.v20120913-155635&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="985" bundleSource="org.eclipse.equinox.p2.touchpoint.natives;version=&quot;1.1.0.v20130121-021919&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="984" bundleSource="org.eclipse.equinox.p2.touchpoint.eclipse;version=&quot;2.1.100.v20120428-0117&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="983" bundleSource="org.eclipse.equinox.p2.repository.tools;version=&quot;2.0.100.v20120501-1314&quot;;roots:=&quot;lib/repository-tools-antsrc,.&quot;" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="700" name="SWTBot Eclipse Control Finder Plug-in (incubation)" provider="Eclipse.org - SWTBot">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="574" class="org.eclipse.mylyn.internal.tasks.ui.TasksUiPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="703" class="org.eclipse.swtbot.eclipse.spy.Activator" name="SWTBot Eclipse Spy (incubation)" provider="Eclipse.org - SWTBot">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="575" name="org.eclipse.mylyn.tasks.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="704" class="org.eclipse.swtbot.eclipse.ui.Activator" name="SWTBot Eclipse UI Plug-in (incubation)" provider="Eclipse.org - SWTBot"/>
+	<bundle bundleID="572" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="701" name="SWTBot Gef Plug-in (incubation)" provider="Eclipse.org - SWTBot"/>
+	<bundle bundleID="573" name="org.eclipse.mylyn.tasks.search Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="702" name="SWTBot Headless JUnit4 Launch Plug-in (incubation)" provider="Eclipse.org - SWTBot"/>
+	<bundle bundleID="578" class="org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="707" name="SWTBot Go Convenience Plugin (Incubation)" provider="Eclipse.org - SWTBot"/>
+	<bundle bundleID="579" name="org.eclipse.mylyn.team.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="708" name="SWTBot JUnit 4.x Runners (incubation)" provider="Eclipse.org - SWTBot"/>
+	<bundle bundleID="576" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="705" name="SWTBot Forms (Incubation)" provider="Eclipse SWTBot"/>
+	<bundle bundleID="577" name="org.eclipse.mylyn.team.cvs Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="706" name="SWTBot Code Generator Plug-in (incubation)" provider="Eclipse.org - SWTBot">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="977" bundleSource="org.eclipse.equinox.p2.operations;version=&quot;2.2.0.v20130119-010614&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="976" bundleSource="org.eclipse.equinox.p2.metadata;version=&quot;2.1.0.v20120430-2001&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="979" bundleSource="org.eclipse.equinox.p2.publisher;version=&quot;1.2.0.v20121002-080415&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="300" class="org.eclipse.equinox.http.servlet.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="978" bundleSource="org.eclipse.equinox.p2.publisher.eclipse;version=&quot;1.1.0.v20120913-155635&quot;;roots:=&quot;ant_tasks/pdepublishing-antsrc,.&quot;" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="302" class="org.eclipse.equinox.internal.jsp.jasper.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="580" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="301" name="org.eclipse.equinox.http.servlet Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="304" class="org.eclipse.equinox.internal.jsp.jasper.registry.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="582" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="303" name="org.eclipse.equinox.jsp.jasper Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="581" name="org.eclipse.mylyn.versions.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="306" localization="launcher" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="305" name="org.eclipse.equinox.jsp.jasper.registry Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="971" bundleSource="org.eclipse.equinox.p2.engine;version=&quot;2.2.0.v20130121-021919&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="308" localization="launcher.cocoa.macosx.x86_64" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="970" bundleSource="org.eclipse.equinox.p2.directorywatcher;version=&quot;1.0.300.v20110808-1657&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="307" name="org.eclipse.equinox.launcher.cocoa.macosx Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="973" bundleSource="org.eclipse.equinox.p2.garbagecollector;version=&quot;1.0.200.v20110808-1657&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="972" bundleSource="org.eclipse.equinox.p2.extensionlocation;version=&quot;1.2.100.v20110808-1657&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="309" name="org.eclipse.equinox.launcher.cocoa.macosx.x86_64 Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="975" bundleSource="org.eclipse.equinox.p2.metadata.repository;version=&quot;1.2.100.v20120524-1717&quot;;roots:=&quot;.,ant_tasks/metadataRepository-antsrc&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="974" bundleSource="org.eclipse.equinox.p2.jarprocessor;version=&quot;1.0.200.v20110808-1657&quot;;roots:=&quot;.,lib/jarprocessor-antsrc&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="583" name="org.eclipse.mylyn.versions.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="584" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="585" name="org.eclipse.mylyn.wikitext.confluence.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="586" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="587" name="org.eclipse.mylyn.wikitext.confluence.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="588" class="org.eclipse.mylyn.internal.wikitext.core.WikiTextPlugin" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="589" name="org.eclipse.mylyn.wikitext.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="969" bundleSource="org.eclipse.equinox.p2.director;version=&quot;2.2.0.v20120524-0542&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="968" bundleSource="org.eclipse.equinox.p2.director.app;version=&quot;1.0.300.v20120428-0517&quot;;roots:=&quot;.,ant_tasks/director-antsrc&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="967" bundleSource="org.eclipse.equinox.p2.core;version=&quot;2.2.0.v20120430-0525&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="966" bundleSource="org.eclipse.equinox.p2.console;version=&quot;1.0.300.v20120429-0125&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="965" bundleSource="org.eclipse.equinox.p2.artifact.repository;version=&quot;1.1.200.v20120430-1959&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="964" bundleSource="org.eclipse.equinox.launcher;version=&quot;1.3.0.v20120522-1813&quot;;roots:=&quot;.&quot;" localization="launcher" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="963" bundleSource="org.eclipse.equinox.frameworkadmin;version=&quot;2.0.100.v20120913-155515&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="962" bundleSource="org.eclipse.equinox.frameworkadmin.equinox;version=&quot;1.0.400.v20120913-155709&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="961" bundleSource="org.eclipse.equinox.event;version=&quot;1.2.200.v20120522-2049&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="960" bundleSource="org.eclipse.equinox.ds;version=&quot;1.4.1.v20120926-201320&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="558" class="org.eclipse.mylyn.internal.pde.ui.PdeUiBridgePlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="559" name="org.eclipse.mylyn.pde.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="556" class="org.eclipse.mylyn.internal.monitor.ui.MonitorUiPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="557" name="org.eclipse.mylyn.monitor.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="554" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="555" name="org.eclipse.mylyn.monitor.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="552" class="org.eclipse.mylyn.internal.java.ui.JavaUiBridgePlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="553" name="org.eclipse.mylyn.java.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="550" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="551" name="org.eclipse.mylyn.java.tasks Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="959" bundleSource="org.eclipse.equinox.console;version=&quot;1.0.0.v20120522-1841&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="958" bundleSource="org.eclipse.equinox.common;version=&quot;3.6.100.v20120522-1841&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="560" class="org.eclipse.mylyn.internal.resources.ui.ResourcesUiBridgePlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="955" bundleSource="org.eclipse.ecf.ssl;version=&quot;1.0.100.v20120610-1946&quot;;roots=&quot;.&quot;" name="ECF SSL Fragment Source" provider="Eclipse.org - ECF"/>
+	<bundle bundleID="954" bundleSource="org.eclipse.ecf;version=&quot;3.1.300.v20120610-1946&quot;;roots=&quot;.&quot;" name="ECF Core API Source" provider="Eclipse.org - ECF"/>
+	<bundle bundleID="957" bundleSource="org.eclipse.equinox.bidi;version=&quot;0.9.100.v20121107-021609&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="956" bundleSource="org.eclipse.equinox.app;version=&quot;1.3.100.v20120522-1841&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="951" bundleSource="org.eclipse.ecf.provider.filetransfer.httpclient.ssl;version=&quot;1.0.0.v20120610-1946&quot;;roots=&quot;.&quot;" name="ECF Filetransfer Httpclient SSL Fragment Source" provider="Eclipse.org - ECF"/>
+	<bundle bundleID="950" bundleSource="org.eclipse.ecf.provider.filetransfer.httpclient;version=&quot;4.0.200.v20120610-1946&quot;;roots=&quot;.&quot;" name="ECF HttpClient Filetransfer Provider Source" provider="Eclipse.org - ECF"/>
+	<bundle bundleID="953" bundleSource="org.eclipse.ecf.provider.filetransfer.ssl;version=&quot;1.0.0.v20120610-1946&quot;;roots=&quot;.&quot;" name="ECF Filetransfer SSL Fragment Source" provider="Eclipse.org - ECF"/>
+	<bundle bundleID="952" bundleSource="org.eclipse.ecf.provider.filetransfer;version=&quot;3.2.0.v20120610-1946&quot;;roots=&quot;.&quot;" name="ECF Filetransfer Provider Source" provider="Eclipse.org - ECF"/>
+	<bundle bundleID="569" name="org.eclipse.mylyn.tasks.index.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="565" name="org.eclipse.mylyn.tasks.bugs Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="566" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="567" name="org.eclipse.mylyn.tasks.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="568" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="561" name="org.eclipse.mylyn.resources.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="562" name="Mylyn Reviews" provider="Eclipse Mylyn"/>
+	<bundle bundleID="563" class="org.eclipse.mylyn.internal.reviews.ui.ReviewsUiPlugin" name="Mylyn Reviews" provider="Eclipse Mylyn"/>
+	<bundle bundleID="564" class="org.eclipse.mylyn.internal.tasks.bugs.TasksBugsPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="799" name="org.eclipse.wst.common.modulecore Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="798" class="org.eclipse.wst.common.componentcore.internal.ModulecorePlugin" localization="plugin" name="%Bundle-Name.0" provider="%provider"/>
+	<bundle bundleID="797" name="org.eclipse.wst.common.infopop Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="796" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="795" name="org.eclipse.wst.common.frameworks.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="794" class="org.eclipse.wst.common.frameworks.internal.ui.WTPUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="793" name="org.eclipse.wst.common.frameworks Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="792" class="org.eclipse.wst.common.frameworks.internal.plugin.WTPCommonPlugin" localization="plugin" name="%pluginName" provider="%provider"/>
+	<bundle bundleID="996" bundleSource="org.eclipse.equinox.security;version=&quot;1.1.100.v20120522-1841&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="790" class="org.eclipse.wst.common.internal.environment.plugin.EnvironmentPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="997" bundleSource="org.eclipse.equinox.security.ui;version=&quot;1.1.100.v20120522-2049&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="791" name="org.eclipse.wst.common.environment Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="994" bundleSource="org.eclipse.equinox.registry;version=&quot;3.5.200.v20120522-1841&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="995" bundleSource="org.eclipse.equinox.security.macosx;version=&quot;1.100.200.v20120522-2049&quot;;roots:=&quot;.&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="992" bundleSource="org.eclipse.equinox.p2.updatesite;version=&quot;1.0.400.v20120412-1615&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="993" bundleSource="org.eclipse.equinox.preferences;version=&quot;3.5.1.v20121031-182809&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="990" bundleSource="org.eclipse.equinox.p2.ui;version=&quot;2.2.0.v20130119-010614&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="991" bundleSource="org.eclipse.equinox.p2.updatechecker;version=&quot;1.1.200.v20110808-1657&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="998" bundleSource="org.eclipse.equinox.simpleconfigurator.manipulator;version=&quot;2.0.0.v20110808-1657&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="999" bundleSource="org.eclipse.equinox.simpleconfigurator;version=&quot;1.0.301.v20120914-163612&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="781" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="lib/cglib-nodep-2.2.jar"/>
+	</bundle>
+	<bundle bundleID="782" class="org.eclipse.wb.internal.swt.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="783" class="org.eclipse.wb.swt.widgets.baseline.BaselineActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="784" class="org.eclipse.wst.common.core.search.SearchPlugin" localization="plugin" name="%pluginName" provider="%pluginProvider"/>
+	<bundle bundleID="785" name="org.eclipse.wst.common.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="786" class="org.eclipse.wst.common.internal.emf.plugin.EcoreUtilitiesPlugin" localization="plugin" name="%pluginName" provider="%pluginProvider"/>
+	<bundle bundleID="787" name="org.eclipse.wst.common.emf Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="788" class="org.eclipse.wst.common.internal.emfworkbench.integration.EMFWorkbenchEditPlugin" localization="plugin" name="%pluginName" provider="%pluginVendor"/>
+	<bundle bundleID="789" name="org.eclipse.wst.common.emfworkbench.integration Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="780" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="772" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="505" name="org.eclipse.mylyn.commons.notifications.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="773" class="org.eclipse.wb.os.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="506" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="770" class="org.eclipse.wb.internal.discovery.core.WBDiscoveryCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="503" name="org.eclipse.mylyn.commons.notifications Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="771" class="org.eclipse.wb.internal.discovery.ui.WBDiscoveryUiPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="504" class="org.eclipse.mylyn.internal.commons.notifications.ui.NotificationsPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="776" class="org.eclipse.wb.internal.rcp.databinding.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="509" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="777" class="org.eclipse.wb.internal.rcp.databinding.emf.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="774" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="507" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="775" class="org.eclipse.wb.internal.rcp.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="508" name="org.eclipse.mylyn.commons.repositories.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="778" class="org.eclipse.wb.internal.rcp.nebula.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="779" class="org.eclipse.wb.internal.rcp.swing2swt.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="501" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="502" name="org.eclipse.mylyn.commons.notifications.feed Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="500" name="org.eclipse.mylyn.commons.notifications.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="763" class="org.eclipse.update.internal.configurator.ConfigurationActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="764" name="org.eclipse.update.configurator Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="765" class="org.eclipse.wb.internal.core.DesignerPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="766" class="org.eclipse.wb.internal.core.databinding.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="760" name="org.eclipse.ui.workbench Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="761" class="org.eclipse.ui.internal.texteditor.TextEditorPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="762" name="org.eclipse.ui.workbench.texteditor Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="767" class="org.eclipse.wb.internal.core.java.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="768" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="lib/guava-13.0.1.jar"/>
+		<library name="lib/MVEL-fork.jar"/>
+		<library name="lib/commons-lang-2.5.jar"/>
+		<library name="lib/commons-primitives-1.0.jar"/>
+		<library name="lib/commons-collections-3.2.1.jar"/>
+		<library name="lib/commons-io-2.0.1.jar"/>
+		<library name="lib/commons-beanutils-1.8.0.jar"/>
+		<library name="lib/commons-logging-1.1.1.jar"/>
+		<library name="lib/commons-digester-2.0.jar"/>
+		<library name="lib/asm-all-3.3.1.jar"/>
+		<library name="lib/nebula-cdatetime.jar"/>
+		<library name="lib/nebula-cwt.jar"/>
+	</bundle>
+	<bundle bundleID="769" class="org.eclipse.wb.internal.core.ui.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="754" class="org.eclipse.ui.internal.views.log.Activator" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="755" name="org.eclipse.ui.views.log Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="752" name="org.eclipse.ui.trace Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="753" class="org.eclipse.ui.internal.views.ViewsPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="750" name="org.eclipse.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="751" class="org.eclipse.ui.trace.internal.TracingUIActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="758" name="org.eclipse.ui.views.properties.tabbed Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="759" class="org.eclipse.ui.internal.WorkbenchPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="e4-workbench.jar"/>
+		<library name="compatibility.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="756" name="org.eclipse.ui.views Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="757" class="org.eclipse.ui.internal.views.properties.tabbed.TabbedPropertyViewPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="595" name="org.eclipse.mylyn.wikitext.mediawiki.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="594" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="391" name="org.eclipse.gef Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="597" name="org.eclipse.mylyn.wikitext.tasks.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="390" class="org.eclipse.gef.internal.InternalGEFPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="596" class="org.eclipse.mylyn.internal.wikitext.tasks.ui.WikiTextTasksUiPlugin" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="393" class="org.eclipse.help.internal.base.HelpBasePlugin" localization="plugin" name="%help_base_plugin_name" provider="%providerName"/>
+	<bundle bundleID="599" name="org.eclipse.mylyn.wikitext.textile.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="392" class="org.eclipse.help.internal.HelpPlugin" localization="plugin" name="%help_plugin_name" provider="%providerName"/>
+	<bundle bundleID="598" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="395" name="org.eclipse.help Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="394" name="org.eclipse.help.base Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="396" class="org.eclipse.help.ui.internal.HelpUIPlugin" localization="plugin" name="%help_system_plugin_name" provider="%providerName"/>
+	<bundle bundleID="397" name="org.eclipse.help.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="398" class="org.eclipse.help.internal.webapp.HelpWebappPlugin" localization="plugin" name="%help_webapp_plugin_name" provider="%providerName"/>
+	<bundle bundleID="399" name="org.eclipse.help.webapp Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="590" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="591" name="org.eclipse.mylyn.wikitext.help.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="592" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="593" name="org.eclipse.mylyn.wikitext.mediawiki.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="383" class="org.eclipse.equinox.internal.simpleconfigurator.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="384" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="381" class="org.eclipse.equinox.internal.security.ui.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="382" name="org.eclipse.equinox.security.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="380" name="org.eclipse.equinox.security Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="389" name="org.eclipse.equinox.util Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="388" class="org.eclipse.equinox.internal.util.UtilActivator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="387" class="org.eclipse.equinox.useradmin.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="386" name="org.eclipse.equinox.simpleconfigurator Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="385" name="org.eclipse.equinox.simpleconfigurator.manipulator Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="370" name="org.eclipse.equinox.p2.updatechecker Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="371" class="org.eclipse.equinox.internal.p2.updatesite.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="372" name="org.eclipse.equinox.p2.updatesite Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="373" class="org.eclipse.core.internal.preferences.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="379" name="org.eclipse.equinox.security.macosx Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="378" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="375" class="org.eclipse.core.internal.registry.osgi.Activator" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="runtime_registry_compatibility.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="374" name="org.eclipse.equinox.preferences Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="377" class="org.eclipse.equinox.internal.security.auth.AuthPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="376" name="org.eclipse.equinox.registry Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="361" name="org.eclipse.equinox.p2.ui.discovery Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="362" class="org.eclipse.equinox.internal.p2.importexport.internal.ImportExportActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="360" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="366" name="org.eclipse.equinox.p2.ui.sdk Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="365" class="org.eclipse.equinox.internal.p2.ui.sdk.ProvSDKUIActivator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="364" name="org.eclipse.equinox.p2.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="363" name="org.eclipse.equinox.p2.ui.importexport Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="369" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="368" name="org.eclipse.equinox.p2.ui.sdk.scheduler Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="367" class="org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdatePlugin" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="350" name="org.eclipse.equinox.p2.repository Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="351" class="org.eclipse.equinox.p2.internal.repository.tools.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="353" class="org.eclipse.equinox.internal.p2.touchpoint.eclipse.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="352" name="org.eclipse.equinox.p2.repository.tools Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="355" class="org.eclipse.equinox.internal.p2.touchpoint.natives.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="354" name="org.eclipse.equinox.p2.touchpoint.eclipse Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="357" class="org.eclipse.equinox.internal.p2.transport.ecf.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="356" name="org.eclipse.equinox.p2.touchpoint.natives Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="359" class="org.eclipse.equinox.internal.p2.ui.ProvUIActivator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="358" name="org.eclipse.equinox.p2.transport.ecf Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="806" class="org.eclipse.wst.common.ui.internal.UIPlugin" localization="plugin" name="%pluginName" provider="%pluginProvider"/>
+	<bundle bundleID="807" name="org.eclipse.wst.common.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="804" class="org.eclipse.wst.common.snippets.internal.SnippetsPlugin" localization="plugin" name="%Snippets_View.name" provider="%providerName"/>
+	<bundle bundleID="805" name="org.eclipse.wst.common.snippets Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="802" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="803" name="org.eclipse.wst.common.project.facet.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="800" class="org.eclipse.wst.common.componentcore.ui.ModuleCoreUIPlugin" localization="plugin" name="%Bundle-Name.0" provider="%provider"/>
+	<bundle bundleID="801" name="org.eclipse.wst.common.modulecore.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="159" class="org.eclipse.e4.ui.internal.services.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="158" name="org.eclipse.e4.ui.model.workbench Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="157" class="org.eclipse.e4.ui.model.application.impl.MWorkbenchModelActivator$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="156" name="org.eclipse.e4.ui.di Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="155" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="154" name="org.eclipse.e4.ui.css.swt.theme Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="152" name="org.eclipse.e4.ui.css.swt Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="601" name="org.eclipse.mylyn.wikitext.textile.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="153" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="600" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="150" name="org.eclipse.e4.ui.css.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="151" class="org.eclipse.e4.ui.internal.css.swt.CSSActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="609" name="org.eclipse.mylyn.wikitext.twiki.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="608" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="607" name="org.eclipse.mylyn.wikitext.twiki.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="606" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="605" name="org.eclipse.mylyn.wikitext.tracwiki.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="604" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="603" name="org.eclipse.mylyn.wikitext.tracwiki.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="602" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="202" class="org.eclipse.emf.cdo.edit.CDOEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="203" class="org.eclipse.emf.cdo.internal.net4j.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="204" class="org.eclipse.emf.cdo.internal.server.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="205" class="org.eclipse.emf.cdo.server.internal.db.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="200" class="org.eclipse.emf.internal.cdo.bundle.Activator$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="201" class="org.eclipse.emf.cdo.internal.common.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="169" name="org.eclipse.e4.ui.workbench.renderers.swt.cocoa Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="206" class="org.eclipse.emf.cdo.server.internal.net4j.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="166" name="org.eclipse.e4.ui.workbench Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="207" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="165" name="org.eclipse.e4.ui.workbench.addons.swt Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="208" class="org.eclipse.emf.codegen.CodeGenPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="168" localization="fragment-cocoa" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="209" class="org.eclipse.emf.codegen.ecore.CodeGenEcorePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="167" class="org.eclipse.e4.ui.internal.workbench.renderers.swt.SWTRenderersActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="161" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="409" localization="compiler_apt_fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="162" name="org.eclipse.e4.ui.widgets Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="408" name="org.eclipse.jdt.apt.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="163" class="org.eclipse.e4.ui.internal.workbench.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="164" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="405" class="org.eclipse.jdt.internal.apt.pluggable.core.Apt6Plugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="404" name="org.eclipse.jdt.apt.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="407" class="org.eclipse.jdt.apt.ui.internal.AptUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="160" name="org.eclipse.e4.ui.services Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="406" name="org.eclipse.jdt.apt.pluggable.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="401" localization="bundle" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="400" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="403" class="org.eclipse.jdt.apt.core.internal.AptPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="402" name="org.eclipse.jdt.annotation Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="824" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="211" name="org.eclipse.emf.codegen Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="825" name="org.eclipse.wst.sse.doc.user Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="212" class="org.eclipse.emf.common.CommonPlugin$Implementation$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="822" class="org.eclipse.wst.sse.core.internal.SSECorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="823" name="org.eclipse.wst.sse.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="210" name="org.eclipse.emf.codegen.ecore Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="828" name="org.eclipse.wst.sse.ui.infopop Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="215" name="org.eclipse.emf.common.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="829" name="org.eclipse.wst.sse.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="216" class="org.eclipse.emf.databinding.DataBindingPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="826" class="org.eclipse.wst.sse.ui.internal.SSEUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="213" name="org.eclipse.emf.common Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="827" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="214" class="org.eclipse.emf.common.ui.CommonUIPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="219" name="org.eclipse.emf.databinding Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="179" name="org.eclipse.ecf.identity Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="178" class="org.eclipse.ecf.internal.core.identity.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="217" class="org.eclipse.emf.databinding.edit.DataBindingEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="177" name="org.eclipse.ecf.filetransfer Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="218" name="org.eclipse.emf.databinding.edit Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="176" class="org.eclipse.ecf.internal.filetransfer.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="820" class="org.eclipse.wst.server.core.internal.ServerPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="821" name="org.eclipse.wst.server.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="170" name="org.eclipse.e4.ui.workbench.renderers.swt Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="418" name="org.eclipse.jdt.debug.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="171" class="org.eclipse.e4.ui.internal.workbench.swt.WorkbenchSWTActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="417" class="org.eclipse.jdt.internal.debug.ui.JDIDebugUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="416" name="org.eclipse.jdt.debug Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="415" class="org.eclipse.jdt.internal.debug.core.JDIDebugPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="jdi.jar"/>
+		<library name="jdimodel.jar"/>
+		<library name="tools.jar"/>
+	</bundle>
+	<bundle bundleID="174" name="org.eclipse.e4.ui.workbench3 Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="623" localization="plugin" name="%osgiUtil" provider="%eclipse.org"/>
+	<bundle bundleID="175" class="org.eclipse.ecf.internal.core.ECFPlugin" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="622" name="org.eclipse.osgi.services Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="172" name="org.eclipse.e4.ui.workbench.swt Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="621" localization="plugin" name="%osgiServices" provider="%eclipse.org"/>
+	<bundle bundleID="173" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="419" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="620" name="org.eclipse.osgi Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="410" localization="compiler_tool_fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="627" name="org.eclipse.pde.api.tools Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="626" class="org.eclipse.pde.api.tools.internal.provisional.ApiPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="625" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="819" name="org.eclipse.wst.internet.cache Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="624" name="org.eclipse.osgi.util Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="414" name="org.eclipse.jdt.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="413" name="org.eclipse.jdt.core.manipulation Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="412" class="org.eclipse.jdt.internal.core.manipulation.JavaManipulationPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="629" name="org.eclipse.pde.api.tools.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="411" class="org.eclipse.jdt.core.JavaCore" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="628" class="org.eclipse.pde.api.tools.ui.internal.ApiUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="811" name="org.eclipse.wst.dtd.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="220" class="org.eclipse.emf.ecore.plugin.EcorePlugin$Implementation$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="812" class="org.eclipse.wst.dtd.ui.internal.DTDUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="221" class="org.eclipse.emf.ecore.change.ChangePlugin$Implementation$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="813" localization="plugin" name="%pluginName" provider="%pluginProvider"/>
+	<bundle bundleID="222" name="org.eclipse.emf.ecore.change Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="814" name="org.eclipse.wst.dtd.ui.infopop Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="223" class="org.eclipse.emf.ecore.provider.EcoreEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="815" name="org.eclipse.wst.dtd.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="224" name="org.eclipse.emf.ecore.edit Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="816" localization="plugin" name="%pluginName" provider="%pluginProvider"/>
+	<bundle bundleID="225" class="org.eclipse.emf.ecore.presentation.EcoreEditorPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="817" name="org.eclipse.wst.dtdeditor.doc.user Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="226" name="org.eclipse.emf.ecore.editor Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="818" class="org.eclipse.wst.internet.cache.internal.CachePlugin" localization="plugin" name="%_PLUGIN_NAME" provider="%_PLUGIN_PROVIDER"/>
+	<bundle bundleID="227" name="org.eclipse.emf.ecore Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="228" class="org.eclipse.emf.ecore.xmi.XMIPlugin$Implementation$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="188" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="229" name="org.eclipse.emf.ecore.xmi Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="187" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="189" class="org.eclipse.egit.core.Activator" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="810" class="org.eclipse.wst.dtd.core.internal.DTDCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="427" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="180" name="org.eclipse.ecf Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="426" name="org.eclipse.jdt.junit.runtime Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="181" class="org.eclipse.ecf.internal.provider.filetransfer.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="429" class="org.eclipse.jdt.internal.launching.LaunchingPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="182" class="org.eclipse.ecf.internal.provider.filetransfer.httpclient.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="428" name="org.eclipse.jdt.junit4.runtime Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="183" name="org.eclipse.ecf.provider.filetransfer.httpclient Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="610" class="org.eclipse.mylyn.internal.wikitext.ui.WikiTextUiPlugin" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="184" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="185" name="org.eclipse.ecf.provider.filetransfer Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="612" class="org.eclipse.internal.net4j.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="186" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="611" name="org.eclipse.mylyn.wikitext.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="809" name="org.eclipse.wst.common.uriresolver Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="614" class="org.eclipse.net4j.db.internal.h2.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="808" class="org.eclipse.wst.common.uriresolver.internal.provisional.URIResolverPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="613" class="org.eclipse.net4j.internal.db.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="421" class="org.eclipse.jdt.internal.junit.ui.JUnitPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="616" class="org.eclipse.net4j.ui.internal.shared.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="420" name="org.eclipse.jdt.doc.user Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="615" class="org.eclipse.net4j.internal.jvm.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="423" name="org.eclipse.jdt.junit.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="618" class="org.eclipse.net4j.util.internal.ui.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="422" class="org.eclipse.jdt.internal.junit.JUnitCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="617" class="org.eclipse.net4j.internal.util.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="425" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="424" name="org.eclipse.jdt.junit Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="619" class="org.eclipse.osgi.framework.internal.core.SystemBundleActivator" hasExtensibleAPI="true" localization="systembundle" name="%systemBundle" provider="%eclipse.org"/>
+	<bundle bundleID="843" name="org.eclipse.wst.xml.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="116" class="org.eclipse.core.variables.VariablesPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="842" name="org.eclipse.wst.xml.ui.infopop Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="117" name="org.eclipse.core.variables Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="841" localization="plugin" name="%pluginName" provider="%pluginProvider"/>
+	<bundle bundleID="114" localization="fragment" name="%fragmentName" patch="true" provider="%providerName">
+		<library name="runtime_registry_compatibility.jar"/>
+	</bundle>
+	<bundle bundleID="840" class="org.eclipse.wst.xml.ui.internal.XMLUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="115" name="org.eclipse.core.runtime Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="112" name="org.eclipse.core.runtime.compatibility.auth Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="113" name="org.eclipse.core.runtime.compatibility Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="110" class="org.eclipse.core.internal.plugins.CompatibilityActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="111" class="org.eclipse.core.internal.runtime.auth.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="849" name="org.eclipse.wst.xsd.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="848" class="org.eclipse.wst.xsd.ui.internal.editor.XSDEditorPlugin" localization="plugin" name="%_UI_PLUGIN_NAME" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="847" name="org.eclipse.wst.xsd.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="846" class="org.eclipse.wst.xsd.core.internal.XSDCorePlugin" localization="plugin" name="%_UI_PLUGIN_NAME" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="845" name="org.eclipse.wst.xmleditor.doc.user Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="118" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="844" localization="plugin" name="%pluginName" provider="%pluginProvider"/>
+	<bundle bundleID="119" name="org.eclipse.cvs Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="435" class="org.eclipse.jdt.internal.ui.JavaPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="436" name="org.eclipse.jdt.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="433" class="org.eclipse.jdt.internal.ui.macbundler.MacOSXUILaunchingPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="434" name="org.eclipse.jdt Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="431" name="org.eclipse.jdt.launching.macosx Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="432" name="org.eclipse.jdt.launching Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="430" class="org.eclipse.jdt.internal.launching.macosx.MacOSXLaunchingPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="439" localization="plugin" name="Jetty :: Continuation" provider="Eclipse Jetty Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="437" class="org.eclipse.jem.util.plugin.JEMUtilPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="438" name="org.eclipse.jem.util Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="830" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="125" name="org.eclipse.draw2d Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="126" class="org.eclipse.e4.core.commands.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="832" class="org.eclipse.wst.validation.internal.plugin.ValidationPlugin" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="127" name="org.eclipse.e4.core.commands Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="831" name="org.eclipse.wst.standard.schemas Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="128" class="org.eclipse.e4.core.internal.contexts.osgi.ContextsActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="121" name="org.eclipse.debug.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="122" class="org.eclipse.debug.internal.ui.DebugUIPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="123" name="org.eclipse.debug.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="124" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="838" class="org.eclipse.wst.xml.core.internal.XMLCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="837" name="org.eclipse.wst.validation.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="839" name="org.eclipse.wst.xml.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="834" name="org.eclipse.wst.validation.infopop Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="129" name="org.eclipse.e4.core.contexts Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="833" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="836" class="org.eclipse.wst.validation.internal.ui.plugin.ValidationUIPlugin" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="835" name="org.eclipse.wst.validation Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="444" localization="plugin" name="Jetty :: Server Core" provider="Eclipse Jetty Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="445" localization="plugin" name="Jetty :: Servlet Handling" provider="Eclipse Jetty Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="446" localization="plugin" name="Jetty :: Utilities" provider="Eclipse Jetty Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="447" localization="plugin" name="Jetty :: Webapp Application Support" provider="Eclipse Jetty Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="440" localization="plugin" name="Jetty :: Http Utility" provider="Eclipse Jetty Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="441" name="org.eclipse.jetty.http Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="442" localization="plugin" name="Jetty :: IO Utility" provider="Eclipse Jetty Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="443" localization="plugin" name="Jetty :: Security" provider="Eclipse Jetty Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="120" class="org.eclipse.debug.core.DebugPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="448" localization="plugin" name="Jetty :: XML utilities" provider="Eclipse Jetty Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="449" class="org.eclipse.jface.internal.JFaceActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="861" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="134" class="org.eclipse.e4.core.internal.services.ServicesActivator" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="injection_annotations.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="860" class="org.eclipse.xtext.builder.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="135" name="org.eclipse.e4.core.services Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="132" name="org.eclipse.e4.core.di.extensions Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="133" name="org.eclipse.e4.core.di Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="865" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="138" name="org.eclipse.e4.tools.css.editor" provider="My Company"/>
+	<bundle bundleID="864" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="139" class="org.eclipse.e4.ui.internal.CSSActivator" name="org.eclipse.e4.tools.css.editor.ui" provider="My Company"/>
+	<bundle bundleID="863" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="136" class="org.eclipse.e4.internal.tools.ToolsPlugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="862" class="org.eclipse.xtext.common.types.provider.TypesEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="137" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="869" class="org.eclipse.xtext.ui.codetemplates.ui.AccessibleCodetemplatesActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="868" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="867" class="org.eclipse.xtext.ui.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="866" name="JSR-45 Smap installer" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="450" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="453" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="454" name="org.eclipse.jface.text Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="451" name="org.eclipse.jface.databinding Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="452" name="org.eclipse.jface Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="457" name="org.eclipse.jsch.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="458" class="org.eclipse.jsch.internal.ui.JSchUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="455" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="456" class="org.eclipse.jsch.internal.core.JSchCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="459" name="org.eclipse.jsch.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="131" class="org.eclipse.e4.core.di.internal.extensions.DIEActivator" localization="fragment" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="130" class="org.eclipse.e4.core.internal.di.osgi.DIActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="143" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="144" name="Js"/>
+	<bundle bundleID="850" localization="plugin" name="%Plugin.name" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="145" name="e4 Templates"/>
+	<bundle bundleID="146" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="852" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="147" class="org.eclipse.e4.ui.bindings.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="851" name="org.eclipse.wst.xsdeditor.doc.user Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="148" name="org.eclipse.e4.ui.bindings Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="854" class="org.eclipse.xsd.provider.XSDEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="149" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="853" class="org.eclipse.xsd.XSDPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="856" name="org.eclipse.xsd Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="855" name="org.eclipse.xsd.edit Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="858" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="857" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="859" class="org.eclipse.xtext.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="461" name="org.eclipse.ltk.core.refactoring Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="460" class="org.eclipse.ltk.internal.core.refactoring.RefactoringCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="462" class="org.eclipse.ltk.internal.ui.refactoring.RefactoringUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="463" name="org.eclipse.ltk.ui.refactoring Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="464" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="archetype-common-2.0-alpha-4.jar"/>
+		<library name="commons-collections-3.2.jar"/>
+		<library name="commons-io-1.3.2.jar"/>
+		<library name="commons-lang-2.1.jar"/>
+		<library name="dom4j-1.6.1.jar"/>
+		<library name="jchardet-1.0.jar"/>
+		<library name="jdom-1.0.jar"/>
+		<library name="oro-2.0.8.jar"/>
+		<library name="plexus-velocity-1.1.3.jar"/>
+		<library name="velocity-1.5.jar"/>
+	</bundle>
+	<bundle bundleID="465" class="org.eclipse.m2e.core.internal.MavenPluginActivator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="466" class="org.eclipse.m2e.core.ui.internal.M2EUIPluginActivator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="467" class="org.eclipse.m2e.internal.discovery.DiscoveryActivator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="468" class="org.eclipse.m2e.editor.MavenEditorPlugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="469" class="org.eclipse.m2e.editor.xml.MvnIndexPlugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="140" class="org.eclipse.e4.tools.css.spy.Activator" name="CSS Spy" provider="Eclipse.org"/>
+	<bundle bundleID="142" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="141" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="687" class="org.eclipse.recommenders.rcp.RecommendersPlugin" name="Code Recommenders: Core Runtime" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="686" name="Code Recommenders: Bayesian Network Serialization" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="689" class="org.eclipse.recommenders.utils.rcp.internal.RecommendersUtilsPlugin" name="Code Recommenders: IDE Utils" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="688" name="Code Recommenders: Utils" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="683" class="org.eclipse.recommenders.internal.extdoc.rcp.wiring.ExtdocPlugin" name="Code Recommenders: Extended Documentation Platform" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="682" name="Code Recommenders: Extended Documentation Commons" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="685" name="Code Recommenders: Bayesian Network Runtime" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="684" name="Code Recommenders: Injection Runtime" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="888" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="889" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="884" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="junit.jar"/>
+	</bundle>
+	<bundle bundleID="885" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="junit.jar"/>
+	</bundle>
+	<bundle bundleID="886" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="680" name="Code Recommenders: Dynamic Templates Completion" provider="Eclipse Code Recommenders">
+		<library name="."/>
+		<library name="/metadata"/>
+	</bundle>
+	<bundle bundleID="887" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="681" name="Code Recommenders: Documentation (Incubation)" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="880" class="org.jboss.netty.container.osgi.NettyBundleActivator" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="netty-3.2.5.Final.jar"/>
+	</bundle>
+	<bundle bundleID="881" class="org.jboss.netty.container.osgi.NettyBundleActivator" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="netty-3.2.5.Final.jar"/>
+	</bundle>
+	<bundle bundleID="882" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="883" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="678" name="Code Recommenders: Intelligent Overrides Completion" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="677" name="Code Recommenders: Intelligent Completion Extension for Eclipse 3.8" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="676" class="org.eclipse.recommenders.internal.completion.rcp.chain.ChainCompletionPlugin" name="Code Recommenders: Chain Completion" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="675" class="org.eclipse.recommenders.internal.completion.rcp.calls.wiring.CallsCompletionPlugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="674" class="org.eclipse.recommenders.internal.completion.rcp.CompletionRcpPlugin" hasExtensibleAPI="true" name="Code Recommenders: Intelligent Completion Runtime" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="673" name="Code Recommenders: Aether Runtime Libraries" provider="Eclipse Code Recommenders">
+		<library name="."/>
+		<library name="lib/aether-api-1.13.1.jar"/>
+		<library name="lib/aether-connector-asynchttpclient-1.13.1.jar"/>
+		<library name="lib/aether-connector-file-1.13.1.jar"/>
+		<library name="lib/aether-connector-wagon-1.13.1.jar"/>
+		<library name="lib/aether-impl-1.13.1.jar"/>
+		<library name="lib/aether-spi-1.13.1.jar"/>
+		<library name="lib/aether-util-1.13.1.jar"/>
+		<library name="lib/maven-aether-provider-3.0.3.jar"/>
+		<library name="lib/maven-model-3.0.3.jar"/>
+		<library name="lib/maven-model-builder-3.0.3.jar"/>
+		<library name="lib/maven-repository-metadata-3.0.3.jar"/>
+		<library name="lib/plexus-utils-2.0.6.jar"/>
+		<library name="lib/plexus-interpolation-1.14.jar"/>
+		<library name="lib/wagon-ahc-1.2.1.jar"/>
+		<library name="lib/wagon-provider-api-1.0.jar"/>
+	</bundle>
+	<bundle bundleID="672" name="org.eclipse.rcp Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="671" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="679" name="Code Recommenders: Subwords Completion" provider="Eclipse Code Recommenders"/>
+	<bundle bundleID="879" name="JaCoCo Report" provider="Mountainminds GmbH &amp; Co. KG"/>
+	<bundle bundleID="877" name="JaCoCo Agent" provider="Mountainminds GmbH &amp; Co. KG"/>
+	<bundle bundleID="878" name="JaCoCo Core" provider="Mountainminds GmbH &amp; Co. KG"/>
+	<bundle bundleID="875" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="876" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="670" name="org.eclipse.rap.ui.templates Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="873" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="874" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="871" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="872" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="870" class="org.eclipse.xtext.ui.shared.internal.Activator" localization="plugin" name="Xtext UI Shared" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="696" name="org.eclipse.swt Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="695" name="org.eclipse.swt.cocoa.macosx.x86_64 Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="694" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="693" name="org.eclipse.swt.cocoa.macosx Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="890" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="699" name="SWTBot Test Launcher Application Plug-in" provider="Eclipse.org - SWTBot"/>
+	<bundle bundleID="698" localization="plugin" name="Headless Ant support for JUnit" provider="Eclipse.org - SWTBot"/>
+	<bundle bundleID="697" class="org.eclipse.swt.tools.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="899" bundleSource="org.apache.ant;version=&quot;1.8.3.v201301120609&quot;;roots:=&quot;libsrc&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="893" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="894" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="891" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="892" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="897" bundleSource="com.ibm.icu;version=&quot;4.4.2.v20110823&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="691" name="org.eclipse.search Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="898" bundleSource="com.jcraft.jsch;version=&quot;0.1.46.v201205102330&quot;" localization="plugin" name="%bundleName" provider="%venderName"/>
+	<bundle bundleID="692" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="895" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="896" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="690" class="org.eclipse.search.internal.ui.SearchPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="646" name="org.eclipse.pde.runtime Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="647" class="org.eclipse.pde.internal.ua.core.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="648" name="org.eclipse.pde.ua.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="649" class="org.eclipse.pde.internal.ua.ui.PDEUserAssistanceUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="195" class="org.eclipse.egit.internal.mylyn.ui.EGitMylynUI" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="642" class="org.eclipse.pde.internal.launching.PDELaunchingPlugin" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="194" name="org.eclipse.egit.import Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="643" name="org.eclipse.pde.launching Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="197" name="org.eclipse.egit Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="644" name="org.eclipse.pde Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="196" name="org.eclipse.egit.mylyn.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="645" class="org.eclipse.pde.internal.runtime.PDERuntimePlugin" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="191" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="190" name="org.eclipse.egit.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="193" class="org.eclipse.egit.internal.importing.Activator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="640" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="192" name="org.eclipse.egit.doc Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="641" name="org.eclipse.pde.junit.runtime Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="198" class="org.eclipse.egit.ui.Activator" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="199" name="org.eclipse.egit.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="639" name="org.eclipse.pde.ds.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="637" name="org.eclipse.pde.ds.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="638" class="org.eclipse.pde.internal.ds.ui.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="635" name="org.eclipse.pde.doc.user Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="636" class="org.eclipse.pde.internal.ds.core.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="633" name="org.eclipse.pde.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="634" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="631" name="org.eclipse.pde.build Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="632" class="org.eclipse.pde.internal.core.PDECore" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="630" class="org.eclipse.pde.internal.build.BuildActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="pdebuild.jar"/>
+	</bundle>
+	<bundle bundleID="668" name="org.eclipse.rap.ui.launch.rwt Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="669" class="org.eclipse.rap.internal.ui.templates.Activator" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="660" name="org.eclipse.platform Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="661" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="662" name="org.eclipse.rap.help Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="663" class="org.eclipse.rap.ui.internal.intro.IntroPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="664" name="org.eclipse.rap.ui.intro Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="665" class="org.eclipse.rap.ui.internal.launch.Activator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="666" name="org.eclipse.rap.ui.launch Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="667" class="org.eclipse.rap.ui.internal.launch.rwt.RWTLaunchActivator" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="659" name="org.eclipse.platform.doc.user Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="657" name="org.eclipse.platform.doc.isv Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="658" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="651" class="org.eclipse.pde.internal.ui.PDEPlugin" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="652" name="org.eclipse.pde.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="650" name="org.eclipse.pde.ua.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="655" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="platform.jar"/>
+	</bundle>
+	<bundle bundleID="656" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="653" class="org.eclipse.pde.internal.ui.templates.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="654" name="org.eclipse.pde.ui.templates Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="35" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="36" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="33" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="34" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="39" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="37" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="lib/ant-antlr.jar"/>
+		<library name="lib/ant-apache-bcel.jar"/>
+		<library name="lib/ant-apache-bsf.jar"/>
+		<library name="lib/ant-apache-log4j.jar"/>
+		<library name="lib/ant-apache-oro.jar"/>
+		<library name="lib/ant-apache-regexp.jar"/>
+		<library name="lib/ant-apache-resolver.jar"/>
+		<library name="lib/ant-apache-xalan2.jar"/>
+		<library name="lib/ant-commons-logging.jar"/>
+		<library name="lib/ant-commons-net.jar"/>
+		<library name="lib/ant-jai.jar"/>
+		<library name="lib/ant-javamail.jar"/>
+		<library name="lib/ant-jdepend.jar"/>
+		<library name="lib/ant-jmf.jar"/>
+		<library name="lib/ant-jsch.jar"/>
+		<library name="lib/ant-junit.jar"/>
+		<library name="lib/ant-junit4.jar"/>
+		<library name="lib/ant-launcher.jar"/>
+		<library name="lib/ant-netrexx.jar"/>
+		<library name="lib/ant-swing.jar"/>
+		<library name="lib/ant-testutil.jar"/>
+		<library name="lib/ant.jar"/>
+	</bundle>
+	<bundle bundleID="38" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="43" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="42" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="41" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="40" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="22" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="async-http-client-1.6.5.jar"/>
+	</bundle>
+	<bundle bundleID="23" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="async-http-client-1.6.5.jar"/>
+	</bundle>
+	<bundle bundleID="24" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="25" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="26" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="27" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="28" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="29" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="30" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="32" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="31" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="19" name="EclEmma debug.ui API fix" provider="Mountainminds GmbH &amp; Co. KG"/>
+	<bundle bundleID="17" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="18" class="com.mountainminds.eclemma.internal.core.EclEmmaCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="15" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="icu-data.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="16" localization="plugin" name="%bundleName" provider="%venderName"/>
+	<bundle bundleID="13" name="Google Guice Assisted Inject" provider="Eclipse.org"/>
+	<bundle bundleID="14" name="Google Guice: Multibindings" provider="Eclipse.org"/>
+	<bundle bundleID="11" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="12" hasExtensibleAPI="true" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="21" class="com.mountainminds.eclemma.internal.ui.EclEmmaUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="20" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1060" class="localdictquery.Activator" name="LocalDictQuery"/>
+	<bundle bundleID="10" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="1058" class="factorylocaldictquery.Activator" name="FactoryLocalDictQuery"/>
+	<bundle bundleID="1059" name="DSLocalDictQuery"/>
+	<bundle bundleID="1056" class="dictquery.Activator" name="DictQuery"/>
+	<bundle bundleID="1057" class="helloworld.Activator" name="HelloWorld" provider="atp"/>
+	<bundle bundleID="79" name="org.eclipse.compare.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="78" class="org.eclipse.compare.internal.core.ComparePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="77" class="org.eclipse.compare.internal.CompareUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="82" name="org.eclipse.core.commands Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="83" class="org.eclipse.core.internal.content.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="80" name="org.eclipse.compare Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="81" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="86" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="87" name="org.eclipse.core.databinding.beans Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="84" name="org.eclipse.core.contenttype Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="85" class="org.eclipse.core.internal.databinding.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="67" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="66" localization="plugin" name="%Bundle-Name" provider="%Bundle-Provider"/>
+	<bundle bundleID="69" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="68" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="70" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="71" class="org.eclipse.ant.core.AntCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="72" name="org.eclipse.ant.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="73" class="org.eclipse.ant.internal.launching.AntLaunching" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="74" name="org.eclipse.ant.launching Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="75" class="org.eclipse.ant.internal.ui.AntUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="76" name="org.eclipse.ant.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="59" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="58" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="57" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="56" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="55" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="64" localization="plugin" name="%bundle.name" provider="%provider.name"/>
+	<bundle bundleID="65" localization="plugin" name="%bundle.name" provider="%provider.name"/>
+	<bundle bundleID="62" localization="plugin" name="%bundle.name" provider="%provider.name"/>
+	<bundle bundleID="63" localization="plugin" name="%bundle.name" provider="%provider.name"/>
+	<bundle bundleID="60" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="61" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="49" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="48" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="45" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="44" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="47" name="Commons Lang" provider="Eclipse.org"/>
+	<bundle bundleID="46" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="51" name="Apache Commons Primitives Plug-in" provider="Eclipse.org">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="52" class="org.apache.felix.gogo.command.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="53" class="org.apache.felix.gogo.runtime.activator.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="54" class="org.apache.felix.gogo.shell.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="50" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1003" bundleSource="org.eclipse.jface;version=&quot;3.8.102.v20130123-162658&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1004" bundleSource="org.eclipse.jface.text;version=&quot;3.8.2.v20121126-164145&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1001" bundleSource="org.eclipse.help;version=&quot;3.6.0.v20120912-134126&quot;;roots:=&quot;.&quot;" localization="plugin" name="%help_plugin_name" provider="%providerName"/>
+	<bundle bundleID="1002" bundleSource="org.eclipse.jface.databinding;version=&quot;1.6.0.v20120912-132807&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1007" bundleSource="org.eclipse.ltk.core.refactoring;version=&quot;3.6.0.v20120523-1543&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1008" bundleSource="org.eclipse.ltk.ui.refactoring;version=&quot;3.7.0.v20120523-1543&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1005" bundleSource="org.eclipse.jsch.core;version=&quot;1.1.400.v20120522-1148&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1006" bundleSource="org.eclipse.jsch.ui;version=&quot;1.1.400.v20120522-1148&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="281" class="org.eclipse.core.internal.runtime.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="487" name="org.eclipse.mylyn.builds.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="280" name="org.eclipse.equinox.bidi Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="486" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="1009" bundleSource="org.eclipse.osgi.services;version=&quot;3.3.100.v20120522-1822&quot;;roots:=&quot;.&quot;" localization="plugin" name="%osgiServices" provider="%eclipse.org"/>
+	<bundle bundleID="485" name="org.eclipse.mylyn.bugzilla.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="484" class="org.eclipse.mylyn.internal.bugzilla.ui.BugzillaUiPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="285" class="org.eclipse.equinox.console.command.adapter.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="284" name="org.eclipse.equinox.concurrent Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="283" localization="plugin" name="%pluginName" provider="%pluginProvider"/>
+	<bundle bundleID="489" name="org.eclipse.mylyn.builds.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="282" name="org.eclipse.equinox.common Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="488" class="org.eclipse.mylyn.internal.builds.ui.BuildsUiPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="288" name="org.eclipse.equinox.ds Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="289" class="org.eclipse.equinox.internal.event.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="286" name="org.eclipse.equinox.console Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="287" class="org.eclipse.equinox.internal.ds.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="482" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="483" name="org.eclipse.mylyn.bugzilla.ide Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="480" class="org.eclipse.mylyn.internal.bugzilla.core.BugzillaCorePlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="481" name="org.eclipse.mylyn.bugzilla.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="1011" bundleSource="org.eclipse.osgi.util;version=&quot;3.2.300.v20120913-144807&quot;;roots:=&quot;.&quot;" localization="plugin" name="%osgiUtil" provider="%eclipse.org"/>
+	<bundle bundleID="1010" bundleSource="org.eclipse.osgi;version=&quot;3.8.2.v20130124-134944&quot;;roots:=&quot;.&quot;" localization="systembundle" name="%systemBundle" provider="%eclipse.org"/>
+	<bundle bundleID="474" class="org.eclipse.m2e.logback.configuration.LogPlugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="473" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="270" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="476" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+		<library name="jars/maven-core-3.0.4.jar"/>
+		<library name="jars/maven-model-3.0.4.jar"/>
+		<library name="jars/maven-settings-3.0.4.jar"/>
+		<library name="jars/maven-settings-builder-3.0.4.jar"/>
+		<library name="jars/maven-repository-metadata-3.0.4.jar"/>
+		<library name="jars/maven-artifact-3.0.4.jar"/>
+		<library name="jars/maven-plugin-api-3.0.4.jar"/>
+		<library name="jars/maven-model-builder-3.0.4.jar"/>
+		<library name="jars/maven-aether-provider-3.0.4.jar"/>
+		<library name="jars/aether-api-1.13.1.jar"/>
+		<library name="jars/aether-util-1.13.1.jar"/>
+		<library name="jars/plexus-interpolation-1.14.jar"/>
+		<library name="jars/plexus-utils-2.0.6.jar"/>
+		<library name="jars/plexus-classworlds-2.4.jar"/>
+		<library name="jars/plexus-component-annotations-1.5.5.jar"/>
+		<library name="jars/plexus-sec-dispatcher-1.3.jar"/>
+		<library name="jars/maven-embedder-3.0.4.jar"/>
+		<library name="jars/plexus-cipher-1.7.jar"/>
+		<library name="jars/commons-cli-1.2.jar"/>
+		<library name="jars/maven-compat-3.0.4.jar"/>
+		<library name="jars/wagon-provider-api-2.2.jar"/>
+		<library name="jars/guice-plexus-shim-2.3.0.jar"/>
+		<library name="jars/javax.inject-1.jar"/>
+		<library name="jars/guice-bean-reflect-2.3.0.jar"/>
+		<library name="jars/guice-bean-locators-2.3.0.jar"/>
+		<library name="jars/guice-bean-binders-2.3.0.jar"/>
+		<library name="jars/guice-bean-scanners-2.3.0.jar"/>
+		<library name="jars/guice-bean-converters-2.3.0.jar"/>
+		<library name="jars/guice-plexus-metadata-2.3.0.jar"/>
+		<library name="jars/guice-plexus-converters-2.3.0.jar"/>
+		<library name="jars/guice-plexus-locators-2.3.0.jar"/>
+		<library name="jars/guice-plexus-binders-2.3.0.jar"/>
+		<library name="jars/guice-bean-inject-2.3.0.jar"/>
+		<library name="jars/guice-plexus-scanners-2.3.0.jar"/>
+		<library name="jars/guice-plexus-lifecycles-2.3.0.jar"/>
+		<library name="jars/sisu-guice-3.1.0-no_aop.jar"/>
+		<library name="jars/guava-10.0.1.jar"/>
+		<library name="jars/jsr305-1.3.9.jar"/>
+		<library name="jars/plexus-build-api-0.0.7.jar"/>
+		<library name="jars/aether-connector-wagon-1.13.1.jar"/>
+		<library name="jars/aether-spi-1.13.1.jar"/>
+		<library name="jars/aether-impl-1.13.1.jar"/>
+		<library name="jars/aether-connector-asynchttpclient-1.13.1.jar"/>
+		<library name="jars/wagon-ahc-1.2.1.jar"/>
+		<library name="jars/wagon-file-2.2.jar"/>
+	</bundle>
+	<bundle bundleID="475" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+		<library name="indexer-core-3.1.0.jar"/>
+		<library name="indexer-artifact-3.1.0.jar"/>
+		<library name="lucene-core-2.4.1.jar"/>
+		<library name="lucene-highlighter-2.4.1.jar"/>
+	</bundle>
+	<bundle bundleID="272" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="478" class="org.eclipse.m2e.refactoring.internal.Activator" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="271" name="org.eclipse.epp.mpc.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="477" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="274" class="org.eclipse.epp.internal.mpc.ui.MarketplaceClientUiPlugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="273" name="org.eclipse.epp.mpc.help.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="479" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="275" name="org.eclipse.epp.mpc.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="276" name="EPP RCP/RAP Bundle" provider="Eclipse Packaging Project"/>
+	<bundle bundleID="277" class="org.eclipse.equinox.internal.app.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="278" name="org.eclipse.equinox.app Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="279" class="org.eclipse.equinox.bidi.internal.STextActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="470" class="org.eclipse.m2e.jdt.MavenJdtPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="471" class="org.eclipse.m2e.internal.launch.MavenLaunchPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="472" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="1000" bundleSource="org.eclipse.equinox.util;version=&quot;1.0.400.v20120917-192807&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="109" class="org.eclipse.core.internal.runtime.PlatformActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="108" name="org.eclipse.core.resources Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="107" class="org.eclipse.core.resources.ResourcesPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="106" name="org.eclipse.core.net Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="105" class="org.eclipse.core.internal.net.Activator" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER"/>
+	<bundle bundleID="104" name="org.eclipse.core.jobs Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="103" class="org.eclipse.core.internal.jobs.JobActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="99" class="org.eclipse.core.internal.filesystem.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="102" name="org.eclipse.core.filesystem Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="101" name="org.eclipse.core.filesystem.macosx Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="100" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="98" name="org.eclipse.core.filebuffers Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="97" class="org.eclipse.core.internal.filebuffers.FileBuffersPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="96" name="org.eclipse.core.externaltools Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="95" class="org.eclipse.core.externaltools.internal.ExternalToolsCore" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="94" name="org.eclipse.core.expressions Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="93" class="org.eclipse.core.internal.expressions.ExpressionPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="92" name="org.eclipse.core.databinding.property Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="91" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="294" name="org.eclipse.equinox.frameworkadmin Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="90" name="org.eclipse.core.databinding.observable Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="293" name="org.eclipse.equinox.frameworkadmin.equinox Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="499" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="296" class="org.eclipse.equinox.http.jetty.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="295" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="290" name="org.eclipse.equinox.event Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="496" class="org.eclipse.mylyn.internal.commons.net.CommonsNetPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="495" name="org.eclipse.mylyn.commons.identity Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="292" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="498" class="org.eclipse.mylyn.internal.commons.ui.notifications.NotificationsPlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="291" class="org.eclipse.equinox.internal.frameworkadmin.utils.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="497" name="org.eclipse.mylyn.commons.net Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="491" name="org.eclipse.mylyn.commons.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="492" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="493" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="494" name="org.eclipse.mylyn.commons.identity.core Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="297" name="org.eclipse.equinox.http.jetty Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="298" class="org.eclipse.equinox.http.registry.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="299" name="org.eclipse.equinox.http.registry Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="490" class="org.eclipse.mylyn.internal.commons.core.CommonsCorePlugin" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="88" name="org.eclipse.core.databinding Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="89" class="org.eclipse.core.internal.databinding.observable.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="240" class="org.eclipse.emf.ecp.emfstore.core.internal.Activator" name="ECP EMFStore Provider Core Plugin" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="241" class="org.eclipse.emf.ecp.emfstore.internal.ui.Activator" name="ECP EMFStore UI Provider" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="1048" bundleSource="org.eclipse.ui.views;version=&quot;3.6.100.v20120705-114010&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1047" bundleSource="org.eclipse.ui.views.properties.tabbed;version=&quot;3.5.300.v20120912-132807&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="1046" bundleSource="org.eclipse.ui;version=&quot;3.104.0.v20121024-145224&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="1045" bundleSource="org.eclipse.ui.net;version=&quot;1.2.101.v20120914-093638&quot;;roots:=&quot;.&quot;" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER"/>
+	<bundle bundleID="1049" bundleSource="org.eclipse.ui.workbench;version=&quot;3.104.0.v20130204-164612&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1050" bundleSource="org.eclipse.ui.workbench.texteditor;version=&quot;3.8.0.v20120523-1310&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1051" bundleSource="org.eclipse.update.configurator;version=&quot;3.3.200.v20120912-144026&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1054" class="own.cmd.CustomizedCommand" name="OwnCommand"/>
+	<bundle bundleID="1055" class="dictqueryenter.Activator" name="DictQueryEnter"/>
+	<bundle bundleID="1052" bundleSource="org.hamcrest.core;version=&quot;1.3.0.v201303031735&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1053" bundleSource="org.hamcrest.library;version=&quot;1.3.0.v201305281000&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="245" class="org.eclipse.emf.ecp.ui.platform.Activator" hasExtensibleAPI="true" localization="OSGI-INF/l10n/bundle" name="ECP Eclipse 3.x Integration" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="244" class="org.eclipse.emf.ecp.internal.ui.Activator" name="ECP UI" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="243" class="org.eclipse.emf.ecp.explorereditorbridge.internal.Activator" name="ECP Explorer Editor Bridge" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="242" class="org.eclipse.emf.ecp.emfstore.ui.search.Activator" name="ECP Search UI" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="249" class="org.eclipse.emf.ecp.workspace.internal.ui.Activator" name="ECP Workspace Integration UI" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="248" class="org.eclipse.emf.ecp.workspace.internal.core.Activator" name="ECP Workspace Integration Core" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="247" class="org.eclipse.emf.ecp.validation.connector.Activator" name="ECP Validation Connector Plugin" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="246" class="org.eclipse.emf.ecp.internal.validation.Activator" name="ECP Validation Service" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="230" class="org.eclipse.emf.ecp.application3x.Activator" localization="plugin" name="ECP Demo Application Eclipse 3.x" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="1035" bundleSource="org.eclipse.ui.console;version=&quot;3.5.100.v20120521-2012&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1034" bundleSource="org.eclipse.ui.cheatsheets;version=&quot;3.4.200.v20120521-2344&quot;;roots:=&quot;.&quot;" localization="plugin" name="%PLUGIN_NAME" provider="%PROVIDER_NAME"/>
+	<bundle bundleID="1037" bundleSource="org.eclipse.ui.externaltools;version=&quot;3.2.100.v20120530-1753&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="1036" bundleSource="org.eclipse.ui.editors;version=&quot;3.8.0.v20120523-1540&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1039" bundleSource="org.eclipse.ui.ide.application;version=&quot;1.0.400.v20120523-1955&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="1038" bundleSource="org.eclipse.ui.forms;version=&quot;3.5.200.v20120705-114351&quot;;roots:=&quot;.&quot;" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="239" class="org.eclipse.emf.ecp.editor.internal.e3.Activator" name="ECP Editor integration for 3.x Workbench" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="1040" bundleSource="org.eclipse.ui.ide;version=&quot;3.8.2.v20121106-165923&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="1041" bundleSource="org.eclipse.ui.intro;version=&quot;3.4.200.v20120521-2344&quot;;roots:=&quot;.&quot;" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="1042" bundleSource="org.eclipse.ui.intro.universal;version=&quot;3.2.600.v20120912-155524&quot;;roots:=&quot;universalsrc&quot;" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="1043" bundleSource="org.eclipse.ui.navigator.resources;version=&quot;3.4.400.v20120705-114010&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="1044" bundleSource="org.eclipse.ui.navigator;version=&quot;3.5.200.v20120705-114103&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="232" class="org.eclipse.emf.ecp.cdo.internal.ui.Activator" name="CDO Model Repository ECP UI" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="231" class="org.eclipse.emf.ecp.cdo.internal.core.Activator" name="ECP CDO Model Repository Core" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="234" class="org.eclipse.emf.ecp.internal.core.Activator" name="ECP Core" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="233" name="ECP Common" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="236" class="org.eclipse.emf.ecp.internal.edit.Activator" name="ECP Edit" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="235" class="org.eclipse.emf.ecp.core.emffilter.internal.Activator" name="ECP Emffilter" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="238" class="org.eclipse.emf.ecp.internal.editor.Activator" name="ECP Editor Plug-in" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="237" class="org.eclipse.emf.ecp.edit.internal.swt.Activator" name="Edit SWT" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="262" localization="plugin" name="EMFStore Server Model  (Incubation)" provider="Eclipse Modeling Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="263" class="org.eclipse.emf.emfstore.internal.server.model.provider.ServerEditPlugin$Implementation" localization="plugin" name="EMFStore Model Edit  (Incubation)" provider="Eclipse Modeling Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="260" name="EMFStore Migration" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="261" class="org.eclipse.emf.emfstore.internal.server.Activator" name="EMFStore Server  (Incubation)" provider="Eclipse Modeling Project">
+		<library name="."/>
+		<library name="lib/org.apache.ws.commons.util_1.0.1.v20100518-1140.jar"/>
+		<library name="lib/xmlrpc-client-3.1.3.jar"/>
+		<library name="lib/xmlrpc-common-3.1.3.jar"/>
+		<library name="lib/xmlrpc-server-3.1.3.jar"/>
+	</bundle>
+	<bundle bundleID="1029" bundleSource="org.eclipse.swtbot.swt.finder;version=&quot;2.1.1.201307101628&quot;;roots:=&quot;.&quot;" localization="OSGI-INF/l10n/bundle-src" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="1028" bundleSource="org.eclipse.swtbot.junit4_x;version=&quot;2.1.1.201307101628&quot;;roots:=&quot;.&quot;" localization="OSGI-INF/l10n/bundle-src" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="1027" bundleSource="org.eclipse.swtbot.go;version=&quot;2.1.1.201307101628&quot;;roots:=&quot;.&quot;" localization="OSGI-INF/l10n/bundle-src" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="1026" bundleSource="org.eclipse.swtbot.generator;version=&quot;2.1.1.201307101628&quot;;roots:=&quot;.&quot;" localization="OSGI-INF/l10n/bundle-src" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="1025" bundleSource="org.eclipse.swtbot.forms.finder;version=&quot;2.1.1.201307101628&quot;;roots:=&quot;.&quot;" localization="OSGI-INF/l10n/bundle-src" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="1024" bundleSource="org.eclipse.swtbot.eclipse.ui;version=&quot;2.1.1.201307101628&quot;;roots:=&quot;.&quot;" localization="OSGI-INF/l10n/bundle-src" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="1023" bundleSource="org.eclipse.swtbot.eclipse.spy;version=&quot;2.1.1.201307101628&quot;;roots:=&quot;.&quot;" localization="OSGI-INF/l10n/bundle-src" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="1032" bundleSource="org.eclipse.text;version=&quot;3.5.200.v20120523-1310&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1033" bundleSource="org.eclipse.ui.browser;version=&quot;3.4.2.v20130123-162658&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="1030" bundleSource="org.eclipse.team.core;version=&quot;3.6.100.v20120524-0627&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1031" bundleSource="org.eclipse.team.ui;version=&quot;3.6.201.v20130125-135424&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="269" name="Modeling Workflow Engine 2 Runtime" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="268" name="MWE2 Lib" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="267" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="266" name="Modeling Workflow Engine 2 Language" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="265" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="264" class="org.eclipse.emf.mwe.internal.core.MWEPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="250" class="org.eclipse.emf.edit.EMFEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="251" name="org.eclipse.emf.edit Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="252" class="org.eclipse.emf.edit.ui.EMFEditUIPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="1017" bundleSource="org.eclipse.rcp;version=&quot;4.2.1.v201302041200&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1016" bundleSource="org.eclipse.rap.ui.templates;version=&quot;1.5.2.20130205-2030&quot;;roots:=&quot;.&quot;"/>
+	<bundle bundleID="1019" bundleSource="org.eclipse.swt.cocoa.macosx.x86_64;version=&quot;3.100.1.v4236b&quot;;roots:=&quot;.&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="1018" bundleSource="org.eclipse.search;version=&quot;3.8.0.v20120523-1540&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1013" bundleSource="org.eclipse.rap.ui.intro;version=&quot;1.5.2.20130205-2030&quot;;roots:=&quot;.&quot;"/>
+	<bundle bundleID="1012" bundleSource="org.eclipse.platform;version=&quot;4.2.2.v201302041200&quot;;roots:=&quot;platformsrc&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="1015" bundleSource="org.eclipse.rap.ui.launch;version=&quot;1.5.2.20130205-2030&quot;;roots:=&quot;.&quot;"/>
+	<bundle bundleID="1014" bundleSource="org.eclipse.rap.ui.launch.rwt;version=&quot;1.5.2.20130205-2030&quot;;roots:=&quot;.&quot;"/>
+	<bundle bundleID="1020" bundleSource="org.eclipse.swtbot.eclipse.core;version=&quot;2.1.1.201307101628&quot;;roots:=&quot;.&quot;" localization="OSGI-INF/l10n/bundle-src" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="1021" bundleSource="org.eclipse.swtbot.eclipse.finder;version=&quot;2.1.1.201307101628&quot;;roots:=&quot;.&quot;" localization="OSGI-INF/l10n/bundle-src" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="1022" bundleSource="org.eclipse.swtbot.eclipse.gef.finder;version=&quot;2.1.1.201307101628&quot;;roots:=&quot;.&quot;" localization="OSGI-INF/l10n/bundle-src" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="904" bundleSource="org.apache.felix.gogo.runtime;version=&quot;0.8.0.v201108120515&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="258" localization="plugin" name="EMFStore Common Model" provider="Eclipse Modeling Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="903" bundleSource="org.apache.felix.gogo.command;version=&quot;0.8.0.v201108120515&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="257" class="org.eclipse.emf.emfstore.internal.common.Activator" name="EMFStore Common" provider="Eclipse Modeling Project">
+		<library name="lib/commons-io-2.0.1.jar"/>
+		<library name="."/>
+		<library name="lib/org.apache.commons.lang_2.4.0.v201005080502.jar"/>
+	</bundle>
+	<bundle bundleID="906" bundleSource="org.apache.log4j;version=&quot;1.2.15.v201012070815&quot;" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER"/>
+	<bundle bundleID="905" bundleSource="org.apache.felix.gogo.shell;version=&quot;0.8.0.v201110170705&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="259" class="org.eclipse.emf.emfstore.internal.common.model.provider.CommonEditPlugin$Implementation" localization="plugin" name="EMFStore Common Model Edit  (Incubation)" provider="Eclipse Modeling Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="900" bundleSource="org.apache.commons.codec;version=&quot;1.3.0.v201101211617&quot;" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="254" class="org.eclipse.emf.emfstore.internal.client.model.Activator" localization="plugin" name="EMFStore Client" provider="Eclipse Modeling Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="253" name="org.eclipse.emf.edit.ui Chinese (Simplified) NLS Support" provider="Eclipse.org"/>
+	<bundle bundleID="902" bundleSource="org.apache.commons.logging;version=&quot;1.0.4.v201101211617&quot;" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="256" class="org.eclipse.emf.emfstore.internal.client.ui.Activator" name="EMFStore Client UI  (Incubation)" provider="Eclipse Modeling Project">
+		<library name="."/>
+		<library name="lib/dmp.jar"/>
+	</bundle>
+	<bundle bundleID="901" bundleSource="org.apache.commons.httpclient;version=&quot;3.1.0.v201012070820&quot;" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="255" class="org.eclipse.emf.emfstore.internal.client.model.provider.ClientModelEditPlugin$Implementation" localization="plugin" name="EMFStore Client Model Edit  (Incubation)" provider="Eclipse Modeling Project">
+		<library name="."/>
+	</bundle>
+</map>

@@ -1,0 +1,39 @@
+package dictqueryenter.tracker;
+
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.Filter;
+import org.osgi.framework.InvalidSyntaxException;
+import org.osgi.util.tracker.ServiceTracker;
+
+import dictquery.query.QueryService;
+
+public class GreetingsService implements QueryService {
+
+	private ServiceTracker<QueryService, QueryService> tracker;
+
+	public GreetingsService(BundleContext context) {
+		try {
+			Filter filter = context.createFilter("");
+			tracker = new ServiceTracker<>(context, filter, null);
+			tracker.open();
+		} catch (InvalidSyntaxException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public String queryWord(String word) {
+		try {
+			QueryService service = tracker.waitForService(1000);
+			if (service != null) {
+				return service.queryWord(word);
+			} else {
+				return null;
+			}
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
+
+}

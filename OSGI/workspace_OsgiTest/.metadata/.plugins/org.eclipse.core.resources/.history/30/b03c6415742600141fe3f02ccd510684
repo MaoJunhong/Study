@@ -1,0 +1,25 @@
+package factorylocaldictquery.impl;
+
+import org.osgi.framework.Bundle;
+import org.osgi.framework.ServiceFactory;
+import org.osgi.framework.ServiceRegistration;
+
+import dictquery.query.QueryService;
+
+public class DictQueryFactory implements ServiceFactory<QueryService> {
+
+	@Override
+	public QueryService getService(Bundle bundle,
+			ServiceRegistration<QueryService> registration) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void ungetService(Bundle bundle,
+			ServiceRegistration<QueryService> registration, QueryService service) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

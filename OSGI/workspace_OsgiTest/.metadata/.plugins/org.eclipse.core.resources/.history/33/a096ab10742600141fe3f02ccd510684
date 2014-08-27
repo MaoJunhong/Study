@@ -1,0 +1,7 @@
+package factorylocaldictquery.impl;
+
+import org.osgi.framework.ServiceFactory;
+
+public class DictQueryFactory implements ServiceFactory<> {
+
+}

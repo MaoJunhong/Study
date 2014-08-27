@@ -1,0 +1,13 @@
+package dictqueryenter.tracker;
+
+import dictquery.query.QueryService;
+
+public class GreetingsService implements QueryService {
+
+	@Override
+	public String queryWord(String word) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

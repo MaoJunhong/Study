@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=LocalDictQuery/\/Library\/Java\/JavaVirtualMachines\/jdk1.7.0_51.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;javax.management(QueryExp.class[QueryExp" modifiers="1537" timestamp="1387422821000"/>
+<typeInfo handle="=DSLocalDictQuery/src&lt;dslocaldictquery{DSLocalDictQuery.java[DSLocalDictQuery" modifiers="1" timestamp="1407922638000"/>
+<typeInfo handle="=OwnCommand/\/Users\/swrd\/eclipse\/eclipse-java\/plugins\/org.eclipse.osgi_3.8.2.v20130124-134944.jar&lt;org.eclipse.osgi.framework.console(CommandProvider.class[CommandProvider" modifiers="1537" timestamp="1361771309000"/>
+<typeInfo handle="=OwnCommand/\/Users\/swrd\/eclipse\/eclipse-java\/plugins\/org.eclipse.osgi_3.8.2.v20130124-134944.jar&lt;org.osgi.framework(BundleActivator.class[BundleActivator" modifiers="1537" timestamp="1361771309000"/>
+<typeInfo handle="=OwnCommand/src&lt;own.cmd{CustomizedCommand.java[CustomizedCommand" modifiers="1" timestamp="1407918493000"/>
+<typeInfo handle="=DictQueryEnter/src&lt;dictqueryenter{Activator.java[Activator" modifiers="1" timestamp="1408332717000"/>
+<typeInfo handle="=FactoryLocalDictQuery/\/Users\/swrd\/eclipse\/eclipse-java\/plugins\/org.eclipse.osgi_3.8.2.v20130124-134944.jar&lt;org.osgi.framework(ServiceFactory.class[ServiceFactory" modifiers="1537" timestamp="1361771309000"/>
+<typeInfo handle="=FactoryLocalDictQuery/\/Library\/Java\/JavaVirtualMachines\/jdk1.7.0_51.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;com.sun.xml.internal.ws.wsdl.writer.document(Service.class[Service" modifiers="1537" timestamp="1387422821000"/>
+<typeInfo handle="=DictQuery/src&lt;dictquery.query{QueryService.java[QueryService" modifiers="513" timestamp="1407914281000"/>
+<typeInfo handle="=DSLocalDictQuery/\/Users\/swrd\/eclipse\/eclipse-java\/plugins\/org.eclipse.osgi_3.8.2.v20130124-134944.jar&lt;org.eclipse.osgi.framework.internal.core(Framework.class[Framework" modifiers="33" timestamp="1361771309000"/>
+<typeInfo handle="=DSLocalDictQuery/\/Users\/swrd\/eclipse\/eclipse-java\/plugins\/org.eclipse.osgi_3.8.2.v20130124-134944.jar&lt;org.osgi.service.startlevel(StartLevel.class[StartLevel" modifiers="1050113" timestamp="1361771309000"/>
+</typeInfoHistroy>

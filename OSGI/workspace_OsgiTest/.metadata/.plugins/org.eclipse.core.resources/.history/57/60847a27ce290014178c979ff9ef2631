@@ -1,0 +1,45 @@
+package localdictquery;
+
+import java.util.Dictionary;
+import java.util.Hashtable;
+
+import localdictquery.impl.LocalDictQuery;
+
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.Constants;
+import org.osgi.framework.ServiceRegistration;
+
+import dictquery.query.QueryService;
+
+public class Activator implements BundleActivator {
+	private ServiceRegistration sr = null;
+	
+	private static BundleContext context;
+
+	static BundleContext getContext() {
+		return context;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see org.osgi.framework.BundleActivator#start(org.osgi.framework.BundleContext)
+	 */
+	public void start(BundleContext bundleContext) throws Exception {
+		Activator.context = bundleContext;
+		Dictionary<String, Object> properties = new Hashtable<>();
+		//properties.put(Constants.SERVICE_RANKING, 1);
+		//properties.put("key.ds", "ds");
+		sr = context.registerService(QueryService.class.getName(), new LocalDictQuery(), properties);
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
+	 */
+	public void stop(BundleContext bundleContext) throws Exception {
+		Activator.context = null;
+		sr.unregister();
+	}
+
+}

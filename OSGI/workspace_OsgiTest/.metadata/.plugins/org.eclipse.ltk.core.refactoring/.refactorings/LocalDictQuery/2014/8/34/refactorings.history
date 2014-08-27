@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LocalDictQuery.java&apos; to &apos;FactoryLocalDictQuery/src/factorylocaldictquery.impl&apos;&#x0A;- Original project: &apos;LocalDictQuery&apos;&#x0A;- Destination element: &apos;FactoryLocalDictQuery/src/factorylocaldictquery.impl&apos;&#x0A;- Original element: &apos;localdictquery.impl.LocalDictQuery.java&apos;" description="Copy compilation unit" destination="=FactoryLocalDictQuery/src&lt;factorylocaldictquery.impl" element1="/src&lt;localdictquery.impl{LocalDictQuery.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1408324092544" units="1" version="1.0"/>
+</session>

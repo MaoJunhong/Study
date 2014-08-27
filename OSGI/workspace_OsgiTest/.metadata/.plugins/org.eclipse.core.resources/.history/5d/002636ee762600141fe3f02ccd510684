@@ -1,0 +1,24 @@
+package dictqueryenter.tracker;
+
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.Filter;
+import org.osgi.util.tracker.ServiceTracker;
+
+import dictquery.query.QueryService;
+
+public class GreetingsService implements QueryService {
+
+	private ServiceTracker<QueryService, QueryService> tracker;
+
+	public GreetingsService(BundleContext context) {
+		Filter filter = context.createFilter("");
+		tracker = new ServiceTracker<>(context, filter, null);
+		tracker.open();
+	}
+
+	@Override
+	public String queryWord(String word) {
+		return null;
+	}
+
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="DSLocalDictQuery">
+   <implementation class="dictqueryenter.Activator"/>
+   <reference 
+   		name = "dsQs"
+   		interface="dictquery.query.QueryService"
+   		bind="setDsQs"
+   		unbind="unsetDsQs"
+   />
+</component>

@@ -1,0 +1,20 @@
+package dictqueryenter.tracker;
+
+import org.osgi.util.tracker.ServiceTracker;
+
+import dictquery.query.QueryService;
+
+public class GreetingsService implements QueryService {
+
+	private ServiceTracker<QueryService, QueryService> tracker;
+
+	public GreetingsService() {
+		
+	}
+
+	@Override
+	public String queryWord(String word) {
+		return null;
+	}
+
+}

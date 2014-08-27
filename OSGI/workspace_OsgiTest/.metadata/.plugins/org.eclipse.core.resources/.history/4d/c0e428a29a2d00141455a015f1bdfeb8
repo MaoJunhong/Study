@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="DSLocalDictQuery">
+   <implementation class="dictqueryenter.DSQSImpl"/>
+   <refrence name="dsQs"
+   		interface="dictquery.query.QueryService"
+   		policy="static"
+   		cardinality="1..1"
+   		bind="setDsQs"
+   		unbind="unsetDsQs"
+   />
+</component>

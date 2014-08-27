@@ -1,0 +1,115 @@
+package dictqueryenter;
+
+import org.osgi.framework.Bundle;
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.ServiceReference;
+
+import dictquery.query.QueryService;
+import dictqueryenter.tracker.GreetingsService;
+
+public class Activator implements BundleActivator {
+
+	private static QueryService dsQs;
+
+	public static void setDsQs(QueryService dsQs) {
+		Activator.dsQs = dsQs;
+		System.out.println("setDsQs");
+		
+		// ds
+		if (dsQs != null) {
+			System.out.println(String.format("ds querry %s, res: %s", "test1",
+					dsQs.queryWord("test1")));
+		} else {
+			System.out.println("dsQs = null");
+		}
+	}
+
+	public static void unsetDsQs() {
+		Activator.dsQs = null;
+		System.out.println("unsetDsQs");
+	}
+
+	private static BundleContext context;
+
+	static BundleContext getContext() {
+		return context;
+	}
+
+	private Thread thread;
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * org.osgi.framework.BundleActivator#start(org.osgi.framework.BundleContext
+	 * )
+	 */
+	public void start(BundleContext bundleContext) throws Exception {
+		Activator.context = bundleContext;
+		Bundle bundle = bundleContext.getBundle();
+		System.err.println(bundle.getSymbolicName() + ": " + bundle.getState());
+
+
+		// get one
+		ServiceReference<QueryService> sr = context
+				.getServiceReference(QueryService.class);
+		if (sr != null) {
+			QueryService qs = context.getService(sr);
+			if (qs != null) {
+				System.out.println(String.format("single querry %s, res: %s",
+						"test1", qs.queryWord("test1")));
+			} else {
+				System.out.println("qs = null");
+			}
+			bundleContext.ungetService(sr);
+		}
+
+		// get all && filter
+		String filter = null;// "(key.ds=ds)";
+		ServiceReference[] srs = context.getAllServiceReferences(
+				QueryService.class.getName(), filter);
+		for (int i = 0; srs != null && i < srs.length; ++i) {
+			sr = srs[i];
+			if (sr != null) {
+				QueryService qs = context.getService(sr);
+				if (qs != null) {
+					System.out.println(String.format("all querry %s, res: %s",
+							"test1", qs.queryWord("test1")));
+				} else {
+					System.out.println("qs = null");
+				}
+				bundleContext.ungetService(sr);
+			}
+		}
+
+		// service tracker
+		final GreetingsService gs = new GreetingsService(context);
+		thread = new Thread(new Runnable() {
+			@Override
+			public void run() {
+				while (true) {
+					System.out.println(gs.queryWord("test1"));
+					try {
+						Thread.sleep(2000);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+				}
+			}
+		});
+		//thread.start();
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
+	 */
+	public void stop(BundleContext bundleContext) throws Exception {
+		Activator.context = null;
+		thread.stop();
+	}
+
+}
