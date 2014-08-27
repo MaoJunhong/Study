@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="1054" class="org.fenixsoft.neonat.ui.Activator" localization="OSGI-INF/l10n/bundle" name="NeonatUIFacadeWeb" project="NeonatUIFacadeWeb" provider="FenixSoft"/>
+	<bundle bundleID="1055" class="org.fenixsoft.neonat.persistence.Activator" localization="OSGI-INF/l10n/bundle" name="NeonatPersistenceSerialize" project="NeonatPersistenceSerialize" provider="FenixSoft"/>
+	<bundle bundleID="1059" class="org.fenixsoft.neonat.persistence.Activator" localization="OSGI-INF/l10n/bundle" name="NeonatPersistencePreferences" project="NeonatPersistencePreferences" provider="FenixSoft"/>
+	<bundle bundleID="1056" class="org.fenixsoft.neonat.Activator" localization="OSGI-INF/l10n/bundle" name="NeonatBase" project="NeonatBase" provider="FenixSoft"/>
+	<bundle bundleID="1057" class="org.fenixsoft.neonat.ui.Activator" localization="OSGI-INF/l10n/bundle" name="NeonatUIFacadeConsole" project="NeonatUIFacadeConsole" provider="FenixSoft"/>
+	<bundle bundleID="1058" class="org.fenixsoft.neonat.useradmin.Activator" localization="OSGI-INF/l10n/bundle" name="NeonatUserAdmin" project="NeonatUserAdmin" provider="FenixSoft"/>
+</map>

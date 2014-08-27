@@ -1,0 +1,12 @@
+INDEX VERSION 1.126+/Users/swrd/Workspaces/workspace_OsgiNeonat/.metadata/.plugins/org.eclipse.jdt.core
+3693113613.index
+3021907993.index
+1494462992.index
+3591602580.index
+4054404402.index
+546116186.index
+3933036917.index
+4594581.index
+662144861.index
+1635181438.index
+1082210520.index

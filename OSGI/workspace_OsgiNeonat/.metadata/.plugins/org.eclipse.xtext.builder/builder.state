@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="ASCII"?>
+<builderState:ResourceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:builderState="http://www.eclipse.org/xtext/builderstate/1.0" URI="platform:/resource/NeonatUIFacadeWeb/WebContent/forum.css">
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="7:stretch" fragment="//@ruleset.0/@selectors.0/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:clear" fragment="//@ruleset.0/@selectors.1/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="8:clearfix" fragment="//@ruleset.1/@selectors.0/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:after" fragment="//@ruleset.2/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="" fragment="//@ruleset.2/@declarations.0/@expr/@term.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//term"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="8:clearfix" fragment="//@ruleset.3/@selectors.0/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="1:*" fragment="//@ruleset.4/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="4:html" fragment="//@ruleset.4/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="8:clearfix" fragment="//@ruleset.4/@selectors.0/@selector/@selector/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="1:*" fragment="//@ruleset.5/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="4:html" fragment="//@ruleset.5/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="8:clearfix" fragment="//@ruleset.5/@selectors.0/@selector/@selector/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="8:clearfix" fragment="//@ruleset.6/@selectors.0/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="7:replace" fragment="//@ruleset.7/@selectors.0/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="7:replace" fragment="//@ruleset.8/@selectors.0/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="1:*" fragment="//@ruleset.8/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="7:replace" fragment="//@ruleset.9/@selectors.0/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="1:a" fragment="//@ruleset.9/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="7:replace" fragment="//@ruleset.10/@selectors.0/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="1:a" fragment="//@ruleset.10/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="4:span" fragment="//@ruleset.10/@selectors.0/@selector/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="4:span" fragment="//@ruleset.11/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="9:accesskey" fragment="//@ruleset.11/@selectors.0/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="13:accessibility" fragment="//@ruleset.12/@selectors.0/@simpleselectors/@id.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//css_hash_class"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="4:body" fragment="//@ruleset.13/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:color" fragment="//@ruleset.14/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:black" fragment="//@ruleset.14/@selectors.0/@selector/@simpleselectors/@pseudo.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//pseudo"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="3:img" fragment="//@ruleset.15/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="2:h1" fragment="//@ruleset.16/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="6:margin" fragment="//@ruleset.17/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="7:padding" fragment="//@ruleset.19/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:color" fragment="//@ruleset.20/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:black" fragment="//@ruleset.20/@selectors.0/@simpleselectors/@pseudo.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//pseudo"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="2:h2" fragment="//@ruleset.21/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="11:line-height" fragment="//@ruleset.22/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="6:margin" fragment="//@ruleset.23/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="7:padding" fragment="//@ruleset.25/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:color" fragment="//@ruleset.26/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:black" fragment="//@ruleset.26/@selectors.0/@simpleselectors/@pseudo.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//pseudo"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="2:h3" fragment="//@ruleset.27/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="11:line-height" fragment="//@ruleset.28/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="6:margin" fragment="//@ruleset.29/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="7:padding" fragment="//@ruleset.31/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:color" fragment="//@ruleset.31/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:black" fragment="//@ruleset.31/@selectors.0/@selector/@simpleselectors/@pseudo.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//pseudo"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="2:h4" fragment="//@ruleset.32/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="11:line-height" fragment="//@ruleset.33/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="6:margin" fragment="//@ruleset.34/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="7:padding" fragment="//@ruleset.36/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:color" fragment="//@ruleset.37/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:black" fragment="//@ruleset.37/@selectors.0/@simpleselectors/@pseudo.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//pseudo"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="2:h5" fragment="//@ruleset.38/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="11:line-height" fragment="//@ruleset.39/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="6:margin" fragment="//@ruleset.40/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="7:padding" fragment="//@ruleset.42/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:color" fragment="//@ruleset.43/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:black" fragment="//@ruleset.43/@selectors.0/@simpleselectors/@pseudo.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//pseudo"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="2:h6" fragment="//@ruleset.44/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="6:margin" fragment="//@ruleset.45/@selectors.0/@selector/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="7:padding" fragment="//@ruleset.47/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:color" fragment="//@ruleset.48/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="5:black" fragment="//@ruleset.48/@selectors.0/@simpleselectors/@pseudo.0">
+    <eClass href="http://www.eclipse.org/e4/CSS#//pseudo"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="1:p" fragment="//@ruleset.49/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="10:blockquote" fragment="//@ruleset.50/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="3:pre" fragment="//@ruleset.51/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="6:strong" fragment="//@ruleset.53/@selectors.0/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+  <exportedObjects xsi:type="builderState:EObjectDescription" name="1:b" fragment="//@ruleset.53/@selectors.1/@simpleselectors/@element">
+    <eClass href="http://www.eclipse.org/e4/CSS#//element_name"/>
+  </exportedObjects>
+</builderState:ResourceDescription>

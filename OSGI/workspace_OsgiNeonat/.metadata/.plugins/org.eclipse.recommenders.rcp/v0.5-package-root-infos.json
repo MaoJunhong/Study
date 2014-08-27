@@ -1,0 +1,685 @@
+[
+  {
+    "symbolicName": "org.eclipse.osgi.nl_zh",
+    "version": {
+      "major": 4,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "v20130724060447"
+    },
+    "jarFileFingerprint": "7c1d0bf08ae7afb7fd99ba7b12050aa64c44fd9a",
+    "jarFileModificationDate": "2013-07-29T11:32:24+08:00",
+    "location": "/Users/swrd/eclipse/eclipse-java/plugins/org.eclipse.osgi.nl_zh_4.2.0.v20130724060447.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4b1a2700f20c14b88b17016c6b3b7e6983a8f9ff",
+    "jarFileModificationDate": "2013-12-19T11:13:40+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.fenixsoft.neonat.ui.console",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2014-08-26T09:40:07+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/NeonatUIFacadeConsole/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "af389f2fe5034d486dfc9012e6ba77c95be07eac",
+    "jarFileModificationDate": "2013-12-19T11:13:40+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "06b897f357f111e205017803b1d10f972e8f1075",
+    "jarFileModificationDate": "2013-08-08T10:15:41+08:00",
+    "location": "/System/Library/Java/Extensions/j3dcore.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "51dbde992ee8e0ee2e9e1be38fcc6d3295ebc66e",
+    "jarFileModificationDate": "2013-08-08T10:16:58+08:00",
+    "location": "/System/Library/Java/Extensions/AppleScriptEngine.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "javax.servlet",
+    "version": {
+      "major": 2,
+      "minor": 5,
+      "micro": 0,
+      "qualifier": "v201103041518"
+    },
+    "jarFileFingerprint": "9c16011c06bc6fe5e9dba080fcb40ddb4b75dc85",
+    "jarFileModificationDate": "2012-04-03T15:00:40+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/Bridge/WebContent/WEB-INF/eclipse/plugins/javax.servlet_2.5.0.v201103041518.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.equinox.http.helper",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2014-08-26T10:12:20+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/org.eclipse.equinox.http.helper/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "95dc9053062d68cde4e8c38494cc63aefd7b0a42",
+    "jarFileModificationDate": "2013-12-19T11:13:40+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext/sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "servletbridge",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "db6003810a8d11ed83db52005dd29c0411fc5f24",
+    "jarFileModificationDate": "2012-04-03T15:00:40+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/Bridge/WebContent/WEB-INF/lib/servletbridge.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8dd971cde724dfec556b5701ff3c9b8bbd262677",
+    "jarFileModificationDate": "2013-10-11T02:38:59+08:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b2addd48bed86a6b2695e97878c59cd9bc84e9fe",
+    "jarFileModificationDate": "2014-03-10T14:03:31+08:00",
+    "location": "/System/Library/Java/Extensions/QTJava.zip",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.equinox.jsp.jasper",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 400,
+      "qualifier": "v20120912-130548"
+    },
+    "jarFileFingerprint": "3d1af9b878bc09e55fa83c84466541fb61e59775",
+    "jarFileModificationDate": "2013-02-25T13:48:17+08:00",
+    "location": "/Users/swrd/eclipse/eclipse-java/plugins/org.eclipse.equinox.jsp.jasper_1.0.400.v20120912-130548.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.equinox.http.helper",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "201205082232"
+    },
+    "jarFileFingerprint": "8de2ab1dd634f887dcfa917062c827bf2f7145d1",
+    "jarFileModificationDate": "2014-08-26T10:13:35+08:00",
+    "location": "/Users/swrd/eclipse/eclipse-java/plugins/org.eclipse.equinox.http.helper_1.0.0.201205082232.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d57b4588c1c302ad017b0cf25de95dfb1b22e8fc",
+    "jarFileModificationDate": "2014-02-19T17:14:54+08:00",
+    "location": "/System/Library/Java/Extensions/MRJToolkit.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.osgi",
+    "version": {
+      "major": 3,
+      "minor": 7,
+      "micro": 0,
+      "qualifier": "v20110613"
+    },
+    "jarFileFingerprint": "ef485a22c7657fad4e7b2aebd8d377410dfd13d2",
+    "jarFileModificationDate": "2012-04-03T15:00:40+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/Bridge/WebContent/WEB-INF/eclipse/plugins/org.eclipse.osgi_3.7.0.v20110613.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.equinox.common",
+    "version": {
+      "major": 3,
+      "minor": 6,
+      "micro": 0,
+      "qualifier": "v20110523"
+    },
+    "jarFileFingerprint": "ab81fd273d933406a855d23a3c341b668b2f9cef",
+    "jarFileModificationDate": "2012-04-03T15:00:40+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/Bridge/WebContent/WEB-INF/eclipse/plugins/org.eclipse.equinox.common_3.6.0.v20110523.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5e51ce82a095b4a23291b1cd35e6f1488efc5776",
+    "jarFileModificationDate": "2013-12-19T11:13:40+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "javax.servlet",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "v201112011016"
+    },
+    "jarFileFingerprint": "f439f71d3b286cd5bc7b415ff843255f9f8343e6",
+    "jarFileModificationDate": "2013-02-25T13:48:09+08:00",
+    "location": "/Users/swrd/eclipse/eclipse-java/plugins/javax.servlet_3.0.0.v201112011016.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.equinox.http.servlet",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 200,
+      "qualifier": "v20110502"
+    },
+    "jarFileFingerprint": "99e3be870ea202781d15e70cf3ebd30b0b4143a2",
+    "jarFileModificationDate": "2012-04-03T15:00:40+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/Bridge/WebContent/WEB-INF/eclipse/plugins/org.eclipse.equinox.http.servlet_1.1.200.v20110502.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.osgi.services",
+    "version": {
+      "major": 3,
+      "minor": 3,
+      "micro": 0,
+      "qualifier": "v20110513"
+    },
+    "jarFileFingerprint": "831b4f32e345a3675cf57c91d1e1ce68e01021c4",
+    "jarFileModificationDate": "2012-04-03T15:00:40+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/Bridge/WebContent/WEB-INF/eclipse/plugins/org.eclipse.osgi.services_3.3.0.v20110513.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6d342cc086f5c4bf834664ddcdfbb4f4166446a7",
+    "jarFileModificationDate": "2013-10-11T02:22:21+08:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "799644f7758e9209f5e537f4320777fe1050f599",
+    "jarFileModificationDate": "2013-12-19T11:13:40+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext/zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a85d5af49e138a0adefc26bf22d2cfc8c754e6dd",
+    "jarFileModificationDate": "2013-08-08T10:11:25+08:00",
+    "location": "/System/Library/Java/Extensions/jai_codec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1131fd02e5ae3337bb6f58f41b5bd785bfc3b2c2",
+    "jarFileModificationDate": "2013-10-11T02:32:03+08:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f0175c4c28f08b9236108499c33d6542c0bcd8b4",
+    "jarFileModificationDate": "2013-08-08T10:15:41+08:00",
+    "location": "/System/Library/Java/Extensions/j3daudio.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "488afd88d0c46bc77635203b62dc513359693c43",
+    "jarFileModificationDate": "2013-12-19T11:13:41+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "63fbdd9c7e93573cc15ee487950217886be2aef6",
+    "jarFileModificationDate": "2014-02-19T17:14:57+08:00",
+    "location": "/System/Library/Java/Extensions/dns_sd.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "005810d865dab9bd200ea485d0e44c18a329aa26",
+    "jarFileModificationDate": "2013-08-08T10:15:41+08:00",
+    "location": "/System/Library/Java/Extensions/vecmath.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "65409d6a8998b6de3eac0c396dda8ba1a6381176",
+    "jarFileModificationDate": "2013-12-19T11:13:40+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "92ebbef37d1a48a2e460d258e1b7a141a0ca6a28",
+    "jarFileModificationDate": "2013-10-11T02:22:21+08:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6aac3a170091ffb8ce43705c47915a7072a6fbc5",
+    "jarFileModificationDate": "2013-10-11T02:28:14+08:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c5d7b7bfab9b433c4b62aebbe76a564b6bcf8192",
+    "jarFileModificationDate": "2013-08-08T10:11:00+08:00",
+    "location": "/System/Library/Java/Extensions/mlibwrapper_jai.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.fenixsoft.neonat.persistence.serialize",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2014-08-26T09:40:07+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/NeonatPersistenceSerialize/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.fenixsoft.neonat.ui.web",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2014-08-26T09:40:23+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/NeonatUIFacadeWeb/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.fenixsoft.neonat.useradmin",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2014-08-26T17:55:52+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/NeonatUserAdmin/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "be4124ecceb37230419f0f31ea6e7d50babb4973",
+    "jarFileModificationDate": "2013-12-19T11:13:40+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e7533ef29283d456ddcc700ad2ccdd0c3452e464",
+    "jarFileModificationDate": "2013-08-08T10:15:41+08:00",
+    "location": "/System/Library/Java/Extensions/j3dutils.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "70e3f9e76e3d5884415516c0cee0855295bcb571",
+    "jarFileModificationDate": "2013-10-11T02:22:21+08:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ea45c5d84b402679dd74825b0806a269a3cd4aee",
+    "jarFileModificationDate": "2013-10-11T02:32:12+08:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7020208c8c23602de67e81b1b1a14321d685674a",
+    "jarFileModificationDate": "2013-12-19T11:13:40+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.osgi",
+    "version": {
+      "major": 3,
+      "minor": 8,
+      "micro": 2,
+      "qualifier": "v20130124-134944"
+    },
+    "jarFileFingerprint": "9a2ddf569f6236e110648c55d91bd5334b7aeed9",
+    "jarFileModificationDate": "2013-02-25T13:48:29+08:00",
+    "location": "/Users/swrd/eclipse/eclipse-java/plugins/org.eclipse.osgi_3.8.2.v20130124-134944.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.equinox.http.servletbridge",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 200,
+      "qualifier": "v20100503"
+    },
+    "jarFileFingerprint": "156231188c6a47433bb739ff0fed787b9a7a5a51",
+    "jarFileModificationDate": "2012-04-03T15:00:40+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/Bridge/WebContent/WEB-INF/eclipse/plugins/org.eclipse.equinox.http.servletbridge_1.0.200.v20100503.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.update.configurator",
+    "version": {
+      "major": 3,
+      "minor": 3,
+      "micro": 100,
+      "qualifier": "v20100512"
+    },
+    "jarFileFingerprint": "27b74bc6dd98824f4d554b79ae1e385215a69a17",
+    "jarFileModificationDate": "2012-04-03T15:00:40+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/Bridge/WebContent/WEB-INF/eclipse/plugins/org.eclipse.update.configurator_3.3.100.v20100512.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.fenixsoft.neonat.base",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2014-08-26T09:40:07+08:00",
+    "location": "/Users/swrd/Workspaces/workspace_OsgiNeonat/NeonatBase/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "362b5afe371dc7f057de4fb726070fd3b1743a0c",
+    "jarFileModificationDate": "2013-12-19T11:13:40+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.osgi.services",
+    "version": {
+      "major": 3,
+      "minor": 3,
+      "micro": 100,
+      "qualifier": "v20120522-1822"
+    },
+    "jarFileFingerprint": "54238ab2e47b2c9a2030c6410682c0d9dd06b827",
+    "jarFileModificationDate": "2013-02-25T13:48:29+08:00",
+    "location": "/Users/swrd/eclipse/eclipse-java/plugins/org.eclipse.osgi.services_3.3.100.v20120522-1822.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0bb518175e479ab8291700f8e33ea16fccf4ae9d",
+    "jarFileModificationDate": "2013-10-11T02:38:52+08:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1826204b0e05aef412b595321866f7d190e0498d",
+    "jarFileModificationDate": "2013-12-19T11:13:40+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2ae5d7fd5b662eea801920b5ddc27763746b982f",
+    "jarFileModificationDate": "2013-12-19T11:13:40+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "21240ab7c12f378058cbb7a9b2f5b762dd30e1b8",
+    "jarFileModificationDate": "2013-08-08T10:11:25+08:00",
+    "location": "/System/Library/Java/Extensions/jai_core.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "17cb77e6b97b7d53eac15eb338d289d6ad70d64a",
+    "jarFileModificationDate": "2013-10-11T02:36:08+08:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a84551888636d4e693dc9b483ad69a6a78ad9d74",
+    "jarFileModificationDate": "2014-02-19T17:14:55+08:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  }
+]

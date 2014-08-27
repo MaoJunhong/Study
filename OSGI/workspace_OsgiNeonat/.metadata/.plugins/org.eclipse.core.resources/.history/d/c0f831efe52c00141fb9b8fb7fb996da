@@ -1,0 +1,58 @@
+package org.fenixsoft.neonat.ui;
+
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+
+public class Activator implements BundleActivator {
+
+	private static BundleContext context;
+	private static HttpServiceTracker tracker;
+
+	public static BundleContext getContext() {
+		return context;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * org.osgi.framework.BundleActivator#start(org.osgi.framework.BundleContext
+	 * )
+	 */
+	public void start(BundleContext bundleContext) throws Exception {
+		Activator.context = bundleContext;
+		tracker = new HttpServiceTracker(context);
+		tracker.open();
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
+	 */
+	public void stop(BundleContext bundleContext) throws Exception {
+		Activator.context = null;
+		tracker.close();
+	}
+	
+	public static String getOptionRightCodeString(int type) {
+        if(type == 1) return "Put";
+        if(type == 2) return "Call";
+        return "";
+    }
+	
+	public static void main(String[] args) {
+		try{
+			Integer i = null;
+			
+			String.format("xxx%s", null);
+		} catch (Throwable e) {
+            e.printStackTrace();
+            if (e.getCause() == null)
+            	System.err.println(e.getMessage());
+            else
+                System.err.println(e.getCause().getMessage());
+        }
+	}
+}

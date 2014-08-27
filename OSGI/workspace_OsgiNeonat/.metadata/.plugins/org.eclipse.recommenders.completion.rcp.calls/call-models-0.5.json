@@ -1,0 +1,12 @@
+{
+  "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar",
+    "status": "RESOLVED"
+  },
+  "/Users/swrd/eclipse/eclipse-java/plugins/org.eclipse.osgi.services_3.3.100.v20120522-1822.jar": {
+    "coordinate": "org.eclipse.osgi:org.eclipse.osgi.services:zip:call:3.0.0",
+    "location": "/Users/swrd/eclipse/eclipse-java/plugins/org.eclipse.osgi.services_3.3.100.v20120522-1822.jar",
+    "status": "RESOLVED"
+  }
+}

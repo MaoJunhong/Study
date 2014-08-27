@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+user/UserAdmin/admin/credentials/password=123456
+user/UserAdmin/admin/properties/username=admin
+user/UserAdmin/admin/type=1
+user/UserAdmin/group.administrator/members/admin=basic
+user/UserAdmin/group.administrator/type=2
+user/UserAdmin/group.anonymous/members/group.guest=basic
+user/UserAdmin/group.anonymous/type=2
+user/UserAdmin/group.guest/members/group.registerMember=basic
+user/UserAdmin/group.guest/members/guest=basic
+user/UserAdmin/group.guest/type=2
+user/UserAdmin/group.registerMember/members/group.administrator=basic
+user/UserAdmin/group.registerMember/type=2
+user/UserAdmin/guest/credentials/password=guest
+user/UserAdmin/guest/properties/username=guest
+user/UserAdmin/guest/type=1
+user/UserAdmin/user.anyone/type=0

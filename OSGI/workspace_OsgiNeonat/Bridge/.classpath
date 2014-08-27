@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v6.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 6"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/servletbridge.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/eclipse/plugins/javax.servlet_2.5.0.v201103041518.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/eclipse/plugins/org.eclipse.equinox.common_3.6.0.v20110523.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/eclipse/plugins/org.eclipse.equinox.http.servlet_1.1.200.v20110502.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/eclipse/plugins/org.eclipse.equinox.http.servletbridge_1.0.200.v20100503.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/eclipse/plugins/org.eclipse.osgi_3.7.0.v20110613.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/eclipse/plugins/org.eclipse.osgi.services_3.3.0.v20110513.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/eclipse/plugins/org.eclipse.update.configurator_3.3.100.v20100512.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
