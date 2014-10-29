@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MyBatisTest
+Bundle-SymbolicName: MyBatisTest
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: mybatistest.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ net.harawata.mybatipse;bundle-version="1.0.8"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
